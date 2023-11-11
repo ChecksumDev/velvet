@@ -1,0 +1,13 @@
+name = "AzureLib"
+filename = "azurelib-neo-1.20.1-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7zlUOZvb/versions/QSDLVKxm/azurelib-neo-1.20.1-2.0.4.jar"
+hash-format = "sha1"
+hash = "4d1f802b00887693d9f4ebfb9b8740f1bbed2f32"
+
+[update]
+[update.modrinth]
+mod-id = "7zlUOZvb"
+version = "QSDLVKxm"

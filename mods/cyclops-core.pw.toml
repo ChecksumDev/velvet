@@ -1,0 +1,13 @@
+name = "Cyclops Core"
+filename = "CyclopsCore-1.20.1-1.18.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z9DM0LJ4/versions/b2BpoV5d/CyclopsCore-1.20.1-1.18.13.jar"
+hash-format = "sha1"
+hash = "f19b112d0423f35b75dd0606b63d90c2b69302f4"
+
+[update]
+[update.modrinth]
+mod-id = "Z9DM0LJ4"
+version = "b2BpoV5d"

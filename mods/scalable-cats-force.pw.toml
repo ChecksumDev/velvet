@@ -1,0 +1,13 @@
+name = "Scalable Cat's Force"
+filename = "ScalableCatsForce-3.3.1-build-0-with-library.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zr0QMQMo/versions/1qV9Ew3X/ScalableCatsForce-3.3.1-build-0-with-library.jar"
+hash-format = "sha1"
+hash = "28154aba31d9165b801aa7800aa758263a23e48f"
+
+[update]
+[update.modrinth]
+mod-id = "zr0QMQMo"
+version = "1qV9Ew3X"

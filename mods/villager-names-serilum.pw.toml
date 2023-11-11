@@ -1,0 +1,13 @@
+name = "Villager Names"
+filename = "villagernames-1.20.1-6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gqRXDo8B/versions/VjCIsB6W/villagernames-1.20.1-6.2.jar"
+hash-format = "sha1"
+hash = "26b3a23ecb3efbf8a4afab86e841d88ac67a8ab9"
+
+[update]
+[update.modrinth]
+mod-id = "gqRXDo8B"
+version = "VjCIsB6W"

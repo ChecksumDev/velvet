@@ -1,0 +1,13 @@
+name = "bdlib"
+filename = "bdlib-1.27.0.8-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/80j65Nbw/versions/oChV3Jik/bdlib-1.27.0.8-mc1.20.1.jar"
+hash-format = "sha1"
+hash = "d29b7226d10005a649ec089e626efa534ee88598"
+
+[update]
+[update.modrinth]
+mod-id = "80j65Nbw"
+version = "oChV3Jik"

@@ -1,0 +1,13 @@
+name = "Ksyxis"
+filename = "Ksyxis-Forge1.17-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2ecVyZ49/versions/1.1-fo1.17/Ksyxis-Forge1.17-1.1.jar"
+hash-format = "sha1"
+hash = "15de04d92b32e1a62be953afeb25231cd36c954b"
+
+[update]
+[update.modrinth]
+mod-id = "2ecVyZ49"
+version = "ZR63N1i2"

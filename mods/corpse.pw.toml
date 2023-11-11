@@ -1,0 +1,13 @@
+name = "Corpse"
+filename = "corpse-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/NuOtxEPy/corpse-1.20.1-1.0.5.jar"
+hash-format = "sha1"
+hash = "2de8c3e330f0851b3f6fbb6dfcd8aa8e70d73614"
+
+[update]
+[update.modrinth]
+mod-id = "WrpuIfhw"
+version = "NuOtxEPy"

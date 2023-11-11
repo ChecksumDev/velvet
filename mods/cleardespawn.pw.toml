@@ -1,0 +1,13 @@
+name = "ClearDespawn"
+filename = "ClearDespawn-forge-1.20.1-1.1.13.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yoJJjRRE/versions/nWNA9YNY/ClearDespawn-forge-1.20.1-1.1.13.jar"
+hash-format = "sha1"
+hash = "6543df232380b61ac0ce8e10188e4970a9d35e4e"
+
+[update]
+[update.modrinth]
+mod-id = "yoJJjRRE"
+version = "nWNA9YNY"

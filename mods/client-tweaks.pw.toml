@@ -1,0 +1,13 @@
+name = "Client Tweaks"
+filename = "clienttweaks-forge-1.20-11.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vPNqo58Q/versions/7Zzx91AW/clienttweaks-forge-1.20-11.1.0.jar"
+hash-format = "sha1"
+hash = "f46ab635dfb286443581a24d2162b4ab442dbf83"
+
+[update]
+[update.modrinth]
+mod-id = "vPNqo58Q"
+version = "7Zzx91AW"

@@ -1,0 +1,13 @@
+name = "Xaero's Minimap"
+filename = "Xaeros_Minimap_23.8.4_Forge_1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1bokaNcj/versions/3kHivc7l/Xaeros_Minimap_23.8.4_Forge_1.20.jar"
+hash-format = "sha1"
+hash = "31fc6ee958ddd2fa174cd8d4787c49638cb3a98d"
+
+[update]
+[update.modrinth]
+mod-id = "1bokaNcj"
+version = "3kHivc7l"

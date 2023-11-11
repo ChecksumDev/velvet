@@ -1,0 +1,13 @@
+name = "Pure Discs - Trails & Tales"
+filename = "PureDiscsTrailsTales-v1.0.0-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iSN6eXzl/versions/o2EVe05L/PureDiscsTrailsTales-v1.0.0-1.20.1-Forge.jar"
+hash-format = "sha1"
+hash = "f1c87328f5bc6a40d724b5ef6b367983cd8c59d2"
+
+[update]
+[update.modrinth]
+mod-id = "iSN6eXzl"
+version = "o2EVe05L"

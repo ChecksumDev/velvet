@@ -1,0 +1,13 @@
+name = "Player Ladder"
+filename = "playerladder-0.6.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YCcTxyDM/versions/ol37llym/playerladder-0.6.1-forge-1.20.1.jar"
+hash-format = "sha1"
+hash = "e2096640589fa2091284b720d147a398be865f67"
+
+[update]
+[update.modrinth]
+mod-id = "YCcTxyDM"
+version = "ol37llym"
