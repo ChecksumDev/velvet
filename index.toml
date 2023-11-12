@@ -116,6 +116,11 @@ hash = "1a060877e79455b31a20e165adb356a517c161eacf3ae503de2fa515e79dea0a"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "0e52682bc312452372b3dba9dfb27ea933246b0e5e2d3678372f357986ac76a5"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "ea14e6e2403900d059a427f5248360ea2fa41f2dc491bfcc2006b80a0da9bd03"
 metafile = true
