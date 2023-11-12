@@ -541,6 +541,11 @@ hash = "5b13150838b876b284751bcfc4935d05eb153ff165fb2606122eb94301916b51"
 metafile = true
 
 [[files]]
+file = "mods/notrample.pw.toml"
+hash = "f08e47a8b608a67794114836dcefe16e07c853ca4271c2fa8def9bd84b58020e"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "4a68abb339f8993d6e5809fe0255752837176dff9a28c27b70dfd9da939bf410"
 metafile = true
