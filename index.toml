@@ -366,6 +366,11 @@ hash = "c03ad50ab5df88a251e335fa8c6a3cfb0621279c76ce9661969450f501d6acf4"
 metafile = true
 
 [[files]]
+file = "mods/forgematica.pw.toml"
+hash = "3aca5c9cf5e5a5c59fa0f34b3944503286fdcc9ebd3902b668915c1416daad06"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "30b4357201f670c9904b7dd301bcaf28046d57f02cbc4d6d72ec789e75ae1572"
 metafile = true
@@ -458,6 +463,11 @@ metafile = true
 [[files]]
 file = "mods/ksyxis.pw.toml"
 hash = "debc7a2cc3ba0b32db5ac3297eaf528cbea2a0bbb603f9481f467506e4df6354"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "4f9b8cc6e6bdab911cde1df7a430f6f7d7af191811703abc6536ebeda05de43c"
 metafile = true
 
 [[files]]
@@ -753,6 +763,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "93b938744f35863325bd3fc9a514675feb61b2156fa6f291ec6eec9d53c9016f"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
