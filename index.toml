@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "6fd09572cd0db289b62be09f35252b7866c08a7cd639f3eaed327de01ed414cd"
+hash = "2b43092b0c5348371f43618f2ea4dace9c10e6bdbe88e7e53fa0e08f77e7e763"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "ea14e6e2403900d059a427f5248360ea2fa41f2dc491bfcc2006b80a0da9bd03"
+hash = "e553de7cb794101cec9a23949c80de6a0436a97f1126686efdcc80ecc54c6aef"
 metafile = true
 
 [[files]]
