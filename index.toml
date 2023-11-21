@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "2a828ea9d778ce70ba3265b57ac1070b6a2c37d6378682e2ed04feda89154ba9"
+hash = "c0dae52b7d1e73e8055536b7032b01e5f091bfdfa65a41401d778e99094d62dd"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "0e52682bc312452372b3dba9dfb27ea933246b0e5e2d3678372f357986ac76a5"
+hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "24055f2f76ec2fc4f58236fd80d203cdaca3a2cbf6a01d449fb1231bb3c921a5"
+hash = "a452520d8c0e1adbe18dd9fd46627df7e7d28dd9a6766d0c00f0035a5862c988"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector.pw.toml"
-hash = "6061aa113cf0a8eaa5844613960799f10d2bfc12801789fa50171bf5984c5cb9"
+hash = "63bd86ce637828ea267bb938269caf07397d1587515ee08f7a6921cfff0478ae"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "3c3c54a5455e74af9b194ece54602dd71b94eb4436398207eaba263abded4a80"
+hash = "b01b6ab415989da371428682d9f3b7e056f8c365b4dd8102a323b47a5595d1da"
 metafile = true
 
 [[files]]
@@ -263,6 +263,11 @@ metafile = true
 [[files]]
 file = "mods/ding.pw.toml"
 hash = "9a47ae3e125db2d8222de6b8e145678687201e500f9b788b9fd014619db091c3"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "8e8d8c1884fc044e1bc60124b5501bbf45b4bbef405edb397118aba64f1deb30"
 metafile = true
 
 [[files]]
@@ -372,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "30b4357201f670c9904b7dd301bcaf28046d57f02cbc4d6d72ec789e75ae1572"
+hash = "30e3dee7aab3fbd4f9b68ffd37d5d39f3f2d5ecdf4f089380e5e3d56d1aa6b3a"
 metafile = true
 
 [[files]]
@@ -572,7 +577,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "5c795a323232e03487af4d771547aed1ec05becb5834cbdd84d7fdbc87224f96"
+hash = "96595b74c0b0d65cc751d81f77a66527cde301ddb064ef4694a0f723bea34344"
 metafile = true
 
 [[files]]
@@ -587,7 +592,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "1ef3bfa6556e468a3a2a022b6249c0b3e285bf939ea75e6809bf5b7673d8246b"
+hash = "53a35a5819c52c1d66bc96bf83a5865c04d8ca21c5a2a15aac64ae1992e5af40"
 metafile = true
 
 [[files]]
@@ -617,12 +622,12 @@ metafile = true
 
 [[files]]
 file = "mods/rftools-builder.pw.toml"
-hash = "daee630704e45e4d5ca66bcdd4c407af23cc806b4c1d7057e94ec1c2e938923e"
+hash = "4710fe723b7f05b0a30b6953febafb3a81c5b3c33b648acc695c28047aaa50ca"
 metafile = true
 
 [[files]]
 file = "mods/rftools-dimensions.pw.toml"
-hash = "ba66be0de8c6f23a15b40202f583772c88f7686d575f817e69996d74d7315019"
+hash = "0fc2306ce2ef207a31aa24a8d3454f20e51b1e8b6f920a453c4d98c3bf74259c"
 metafile = true
 
 [[files]]
@@ -692,12 +697,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "6ef50f6e7666db18c38e82074b3cbe6eaaf84f9f394a7d83919473fb9a709ba3"
+hash = "be96fd233de1d30b69e941143a0c57501b6a18ae076e789a2066c78f21cab54e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bef0c9da752f459c8e520f99286ca86fd2baf4c09ea5224d4099134ac56fd9d0"
+hash = "5e61ea66369857e34d71ffe87e950554fc7bfe5003e9f514b45f890593386518"
 metafile = true
 
 [[files]]
