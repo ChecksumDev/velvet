@@ -576,6 +576,11 @@ hash = "65ba55b95c910d696029b5e1c735241062ea80d5bad76e22e9e79697279cde30"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "b6a800b84316b5d244794c7d6e3ee932502fadc73fe86295267e3f4028da822b"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "96595b74c0b0d65cc751d81f77a66527cde301ddb064ef4694a0f723bea34344"
 metafile = true
