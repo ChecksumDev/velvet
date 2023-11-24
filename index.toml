@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "2c05c84665d23533f34b8cbc68ced8ea84eed2b566f7c63c804c2f38431d0a6a"
+hash = "eb6b036dccbcb9bcf14d79d973478a20288ff56c7829a179ed507857c1792d6c"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "2b43092b0c5348371f43618f2ea4dace9c10e6bdbe88e7e53fa0e08f77e7e763"
+hash = "fd5494c1ea97a20af1dd0dee9d70e2d22110122f370dba34287da434db3795a2"
 metafile = true
 
 [[files]]
@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "ee45fe60f4042b3ebe6f16cf6256b1e9c44974f5b7524fe8643601a5e21fd312"
+hash = "c02abadda07957d3e97afba27dc74d3ee6da183035a69ca6fe0f0b2fd32b7301"
 metafile = true
 
 [[files]]
@@ -377,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "30e3dee7aab3fbd4f9b68ffd37d5d39f3f2d5ecdf4f089380e5e3d56d1aa6b3a"
+hash = "2521455fe93051e30fe39b142477894373de36b2ace4eeb4a41d300aa11b27a0"
 metafile = true
 
 [[files]]
