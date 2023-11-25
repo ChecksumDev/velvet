@@ -581,11 +581,6 @@ hash = "96595b74c0b0d65cc751d81f77a66527cde301ddb064ef4694a0f723bea34344"
 metafile = true
 
 [[files]]
-file = "mods/player-ladder.pw.toml"
-hash = "1e650c1024c2fbfa0e8b847b1f7b635230056d5af7b70f289b0b658433898c9e"
-metafile = true
-
-[[files]]
 file = "mods/pure-discs-trails-tales.pw.toml"
 hash = "0eddd9f929632d0c6c5356347775449994f6fa06067874ff0186f42b94a2db2f"
 metafile = true
