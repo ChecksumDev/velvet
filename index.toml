@@ -176,11 +176,6 @@ hash = "cad8643ee0b41bb9825b4a2a273628fa1a3a9c15b34fb4ec8e297fde8498f7f6"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "63bd86ce637828ea267bb938269caf07397d1587515ee08f7a6921cfff0478ae"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "2a50d21837bba88e3c9490c6bb8e0a9b44b052645d5c1481b48a060439c20a3c"
 metafile = true
@@ -248,11 +243,6 @@ metafile = true
 [[files]]
 file = "mods/dark-paintings.pw.toml"
 hash = "b002f166f75d91a30a7d84ed5846917079405ca86c9fec90bdd2ffbbc815008a"
-metafile = true
-
-[[files]]
-file = "mods/dark-waters.pw.toml"
-hash = "55b6b169110681df812ecec71663f41ade20127220b83d0ec13e74a1ab3fbca5"
 metafile = true
 
 [[files]]
@@ -368,11 +358,6 @@ metafile = true
 [[files]]
 file = "mods/forgematica.pw.toml"
 hash = "21e4df80a508591d60bd2935e8e669c71ae13c95d9a5400c9fa1f9fd785b6945"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "2521455fe93051e30fe39b142477894373de36b2ace4eeb4a41d300aa11b27a0"
 metafile = true
 
 [[files]]
