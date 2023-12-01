@@ -1,13 +1,13 @@
 name = "ItemPhysic"
-filename = "ItemPhysic_FORGE_v1.6.16_mc1.20.1.jar"
+filename = "ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/aT8BzaOj/versions/kEK9UUAT/ItemPhysic_FORGE_v1.6.16_mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/aT8BzaOj/versions/r83lVhj6/ItemPhysic_FORGE_v1.7.0_mc1.20.1.jar"
 hash-format = "sha1"
-hash = "613ad9dacadbedb50e61b52ff5a447c6eb078fab"
+hash = "fca5ae7d457aa73805ef25a78327c3460d65fd28"
 
 [update]
 [update.modrinth]
 mod-id = "aT8BzaOj"
-version = "kEK9UUAT"
+version = "r83lVhj6"

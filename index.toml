@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/attributefix.pw.toml"
-hash = "97e7c665b6d2f9903648ea22098f0e1e8bd3b2039f6e6fee14155db41232c43e"
+hash = "ecdd4372e076170c6b3bc4665dfdc5dac60292aaac013c7f95305b43e8916495"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "929933481c4f2438886206bb5e4888137b6f4b82b5f6c39568a6d16ee5ac7848"
+hash = "180da311ff501c084460892ad736339dfcb791b2b79c0e6951f1a3fa89469590"
 metafile = true
 
 [[files]]
@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "6f5699622fae821052ca69c2cc7ab6dae7e3787cec446892b6b153c321f4f90a"
+hash = "887894f269566efe8d753540e5edfe0e9d0357f440806d024db18282061ec10c"
 metafile = true
 
 [[files]]
@@ -282,12 +282,12 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "84a6e8164651e25938442ebb8d313e22d13f56be527641782ac9d42fdb2baf25"
+hash = "cc644c843d9dfd387dc069eb5e41d17b29bbd5facfa053a08e6a59ec911febd2"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "7364b12718ceb3dce5caf8118d8f71290efc033cff198b3131b05f75630f3d27"
+hash = "3c7c2d68e44836c03bfaf4ff826c0fe3d806a59fb4486b32f02a2861515bc243"
 metafile = true
 
 [[files]]
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "9e2a974e3b686e1e0370722b2e59497c99baeff1a844ff30131a22818d17f3b7"
+hash = "9198158df2e73f860f7352adabc41d2341659ade1ddd07f340c45d0fb9a6cfa5"
 metafile = true
 
 [[files]]
@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic.pw.toml"
-hash = "f931d0faa4c500d1a110ffa68732fe7cd459268087079fc96d27092594ca83db"
+hash = "e79ecf48868b0fe504ee67094e6d3291d3501121cbec0f580497fa1acd426ddb"
 metafile = true
 
 [[files]]
@@ -567,7 +567,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "96595b74c0b0d65cc751d81f77a66527cde301ddb064ef4694a0f723bea34344"
+hash = "3efe1725ae6105d992ab8be92044c83e1886b0b9f0972415c3f72ab018e82f79"
 metafile = true
 
 [[files]]
@@ -627,7 +627,7 @@ metafile = true
 
 [[files]]
 file = "mods/rftools-utility.pw.toml"
-hash = "3d5bf0e6a075c7cc6f55ad398220e335d69c303e59b8b6ba9e6b2110d3131a5c"
+hash = "0c5fb8b4e1989383bc4b15a9850e362da51919197dfae2102656f2be565c0bab"
 metafile = true
 
 [[files]]
@@ -682,12 +682,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "be96fd233de1d30b69e941143a0c57501b6a18ae076e789a2066c78f21cab54e"
+hash = "e69faa49be4f91785232eb9ebb86b30edc93628f58042a50fe5c6614c72b58a3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5e61ea66369857e34d71ffe87e950554fc7bfe5003e9f514b45f890593386518"
+hash = "7d779448e148139f4cdcf9f4f67dce6c9f46d6b971f6dbbe1296d088e8ac8d9c"
 metafile = true
 
 [[files]]
@@ -767,12 +767,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "323c6e9efef80d124f541e44d78b41fb4ef5010f48ca009b22a3fd98148bba45"
+hash = "e35d15cfed074d7195cac205054e488e87e2aba5dde748b1c0c2dcd1d8901e0e"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "66976ef59c1fbe7df7a30922f8ece6ebf7c543b21b5485ca42c19edb31005790"
+hash = "2c021bf54353c803870a2f68c1a60c5dadbf4066f8d04e4873143d612587be12"
 metafile = true
 
 [[files]]
