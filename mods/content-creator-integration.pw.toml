@@ -1,0 +1,13 @@
+name = "Content Creator Integration (Forge)"
+filename = "ContentCreatorIntegration-1.20.1-Forge-1.11.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d44fbf0ca9d28494d2789725c539ca49ab1caaea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4808448
+project-id = 302296
