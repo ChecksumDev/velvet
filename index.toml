@@ -461,11 +461,6 @@ hash = "929c43ef12e36cd52a0c1d0f918cd5af328d06d26591311df645950c523c3c0c"
 metafile = true
 
 [[files]]
-file = "mods/ksyxis.pw.toml"
-hash = "9d9c85f51272791deb130d1a3bfa4654485e089aa3224c924725b31d25832446"
-metafile = true
-
-[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "a72b4cce6c4c370313326aa7f838bc4d12e9c207fd2a2b6acc2a9683b8ee6641"
 metafile = true
