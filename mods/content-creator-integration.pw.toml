@@ -1,13 +1,13 @@
-name = "Content Creator Integration (Forge)"
+name = "Content Creator Integration"
 filename = "ContentCreatorIntegration-1.20.1-Forge-1.11.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/6Z8wT5tM/versions/ex4vHeEW/ContentCreatorIntegration-1.20.1-Forge-1.11.1.jar"
 hash-format = "sha1"
 hash = "d44fbf0ca9d28494d2789725c539ca49ab1caaea"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4808448
-project-id = 302296
+[update.modrinth]
+mod-id = "6Z8wT5tM"
+version = "ex4vHeEW"
