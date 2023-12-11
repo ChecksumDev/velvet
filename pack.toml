@@ -1,12 +1,12 @@
-name = "velvet.moe"
+name = "velvet"
 author = "Checksum"
-version = "1.0.0"
+version = "0.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "929818ec3ce939f9e1f8303c6fb1b1e92472c3a031e42c9b06cf369a2c2f392a"
+hash = "dae10384ed52bfd04b4ea8569608147e178e2f18dde728550bce85c643fc4aae"
 
 [versions]
 minecraft = "1.20.1"
