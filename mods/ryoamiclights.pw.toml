@@ -1,13 +1,13 @@
 name = "RyoamicLights"
-filename = "Ryoamiclights-0.1.6+1.20.1.jar"
+filename = "Ryoamiclights-0.1.7+1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/reCfnRvJ/versions/8xdhlPCJ/Ryoamiclights-0.1.6%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/reCfnRvJ/versions/gL4xb5aw/Ryoamiclights-0.1.7%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "9c037d82614de76e3abaea6518cd18a5569ad5a0"
+hash = "3f89958e01b88a4d7d9a1b12497f5a7ab181764e"
 
 [update]
 [update.modrinth]
 mod-id = "reCfnRvJ"
-version = "8xdhlPCJ"
+version = "gL4xb5aw"
