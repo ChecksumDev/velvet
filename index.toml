@@ -166,7 +166,7 @@ metafile = true
 
 [[files]]
 file = "mods/common-capabilities.pw.toml"
-hash = "cad8643ee0b41bb9825b4a2a273628fa1a3a9c15b34fb4ec8e297fde8498f7f6"
+hash = "df4ec3f22ef7bea987815f6ef14aee57cd23a3f4493b143dfc3a614380e2e73c"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "489769f9b1bf1600d8eec7b8e08b27b66ecef1daeb3b4ddd44c0b6d14e5c5670"
+hash = "1b9ee39fd1356323e4079873e9513535f635e5681d94ac8fb5bc2487dfbd5b78"
 metafile = true
 
 [[files]]
@@ -271,12 +271,12 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "49c5e0ab04ed57b29c024c743b290b2d2988406b61f79420a843cb7827712646"
+hash = "7375ef224927b2075f3f58bcc348f54a1f91ec99a34e5406e232109b6dc963a7"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "07fae73b8d49c92bdb2cde4dd2ee4348e81594e0ece3638d0c342f5141417825"
+hash = "d70c55c851f791fbdc42e4d8d5cff31faec8fcdf75e6c1c76765e16c3ddb280d"
 metafile = true
 
 [[files]]
@@ -386,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "daf0594636f04be29bad0e22ca73514df04503c98fc7e2093ca5eb8d8013af55"
+hash = "37f4fda53b1d086963ea008592e4e9b567e4e449381a349c5ac707cb9b66b4d2"
 metafile = true
 
 [[files]]
@@ -406,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "76a9cf429fc6f4a8fff40b535406ae0da96940d7e1f0b80b8dcd3744f0e5e8ac"
+hash = "4edeebef1800ce4ee0a390cdaef0dad3c164155c2d015591368688e9093a066c"
 metafile = true
 
 [[files]]
@@ -426,7 +426,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "f47ecf5bd43b17e7422a6186ac6ab0422eaef3434763afb0390389b27cb4eb57"
+hash = "fab49ce0c16fa78f71c7b39d23a4318055598f1cee0a964781f3b56801e2ed44"
 metafile = true
 
 [[files]]
