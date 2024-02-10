@@ -1,13 +1,13 @@
 name = "Scaling Health"
-filename = "ScalingHealth-1.20.1-8.0.1+8.jar"
+filename = "ScalingHealth-1.20.1-8.0.2+9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8b4eedce755d71e70271548d185c733a81381794"
+hash = "d0d36837568ee1ce7511647b977f9e8402055c19"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4669277
+file-id = 5065403
 project-id = 248027
