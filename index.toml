@@ -295,6 +295,11 @@ hash = "eba379d7995e69e15a1666fc6997841c93f656220137d3ac88c2ce79e696dd41"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "49b79603523451f9beb1030d89d9e332b15d8e902ecc3f33901c1b25b8d2e8dd"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
 metafile = true
@@ -677,11 +682,6 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "3c9b481baf1f2eca22fe731934427e1d832fc4344a73c7b0f6e1880735c7e4dd"
-metafile = true
-
-[[files]]
-file = "mods/vivecraft.pw.toml"
-hash = "3fbfa004ba586112a7aca6032a3321afa498790ff30b3591dff65c6cc4525e16"
 metafile = true
 
 [[files]]
