@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "1d6e719de46234db1c564e58e4e047ded9c3fadce9f9c2141fe7ee9f1847068f"
+hash = "8fd3ba78c36ba937a6c47ed9540152ce5b0e321aa5d4204c9fe93555dfde2e38"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisels-bits.pw.toml"
-hash = "9f7f2f35ccbca3e16fa3941199d89d6340fae1d15b9bedc9e53037c617e41db4"
+hash = "5dc5adc7894fcd644d33f614a76e3a19e1b9e176db15fa01fc1e95507acf177a"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/croptopia-additions.pw.toml"
-hash = "80b33fe08617df01e7f78bb4b947641065cb17506c28b04aac5e785fcd420645"
+hash = "013a3127d7099c7ef08e86c85435b70d1c2564f8a2237a3b1bd63d8008b6b07d"
 metafile = true
 
 [[files]]
@@ -271,12 +271,12 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a49c5c15586667460668bc0207a34ef56330a1cc8b7b5e3c3c7ec7876ee56138"
+hash = "c7ac97f198d23d00be8d98db22da394d69aa568c42ec9c66cf0473716857ad3c"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "1c18f7892b4648f8fae971909d33e163dac641f7c551ade8180dcbd0b4eb64da"
+hash = "c3d5eb1c8cc71b7c408f321a6d8ee1a0ea8b1f3fb20f97d074c3094cdb667fc3"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "d716522fe0f486fa2d0dcfe2ba4d55a3d28c5f3f043cfcdf0cb90add23c45ac6"
+hash = "4fa7b42729561daf1a66ee9db8391d588eaf4c8ac4cf6e08248922cde1f74e60"
 metafile = true
 
 [[files]]
@@ -336,7 +336,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastworkbench.pw.toml"
-hash = "8630a92c47c281994b920f446630b9832f0058a44eb21de12bcab8f2b6f307ed"
+hash = "77095e78d0432b58d1243f271e953c8c6b318bf8dbd0563358b07e15baf30a9c"
 metafile = true
 
 [[files]]
@@ -406,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d4f566482b2b527f5a01e781853937c63373a61a832926406a5cefbb2d016366"
+hash = "b9e82527f9d5d2152c4e095c00a3d0a30a29825479fd73e7e24a2634bde112be"
 metafile = true
 
 [[files]]
@@ -531,7 +531,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "3efe1725ae6105d992ab8be92044c83e1886b0b9f0972415c3f72ab018e82f79"
+hash = "14eb87dea15b2484cda7bed648ed7382d8636e1e953a0e3f73f92c528c145934"
 metafile = true
 
 [[files]]
@@ -626,7 +626,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "38d46e8383d992ff0894d9407ebfad8f838dc25c764e794c6aa2ef0d8dec442a"
+hash = "c7f4226e42ba8b15da1338c250184535798bb39e80af1bcb0a3b52324d675822"
 metafile = true
 
 [[files]]
@@ -641,12 +641,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d93b370935b00d2460bc6a29d1e04af19606962524e5e9dae5eb2fc232f3711c"
+hash = "f6c7896e6fd5ea1d9f9334ca51d44020e4564eb62b6eb5ac684842703ca8fd17"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0efaf17ef62391554f3f4fb43c2892df00006a0bb25d74c83891721340c821cb"
+hash = "04dfd3580332c4d67a86009b8c1a22db329d9c38bc45f8fce9514dde92e5cd35"
 metafile = true
 
 [[files]]
@@ -666,7 +666,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "7f92b24d59c9f87bd6310547b1dee47e8f4c0116f31e9c7835d3b9ca60d8c144"
+hash = "97ff489cce6b7ad5a4ed965e09a960efc5f6ad7a6cf4f070a47c8de8d00d917f"
 metafile = true
 
 [[files]]
@@ -686,7 +686,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "fddece53bfe6711ea3b1d0c999439a2ebab1d996d53e433b4ecab5ee8e2045cb"
+hash = "3fd7667f5782bbff0d84e0e55a65fa107c3538f29dd5eb0981637827a604fe78"
 metafile = true
 
 [[files]]
