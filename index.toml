@@ -645,6 +645,11 @@ hash = "c85ee74b78c2ccf8668ce8d66147231e999712218dde0bb719353616864800a6"
 metafile = true
 
 [[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "49e021e36597c5897050cb5fb75ca22a36283fbb410a3320035a0ffaf5a657af"
+metafile = true
+
+[[files]]
 file = "mods/silent-lib.pw.toml"
 hash = "7f281333e1c573bc3673446c291d82f3137bfc7de6a5256d61417f67be7b40bc"
 metafile = true
