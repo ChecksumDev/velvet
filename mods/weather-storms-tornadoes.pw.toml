@@ -1,0 +1,13 @@
+name = "Weather Storms & Tornadoes"
+filename = "weather2-1.20.1-2.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dv5SFk5T/versions/TI8WnH7P/weather2-1.20.1-2.8.2.jar"
+hash-format = "sha1"
+hash = "9415dca06d78ec04387f70dfc5b2bdb54efc2e7b"
+
+[update]
+[update.modrinth]
+mod-id = "dv5SFk5T"
+version = "TI8WnH7P"
