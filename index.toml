@@ -185,6 +185,11 @@ hash = "259636601b21c7ae999f27ea087149a9a004cb7c688ca6b37c63f0e2d81ed1f9"
 metafile = true
 
 [[files]]
+file = "mods/coroutil.pw.toml"
+hash = "c8dad6abaa841e4283e2ab9b618c75b26e6b5cdb86c733ed1adbeac4835e6246"
+metafile = true
+
+[[files]]
 file = "mods/corpse.pw.toml"
 hash = "fdda2d2ff2f57853b01df78d86334dd1ef20afbeb6fcf3949caae4580d31f911"
 metafile = true
@@ -325,8 +330,18 @@ hash = "77b767098e20ebf32ab9e320c99222dc03b486f3a536654696065e00293c1614"
 metafile = true
 
 [[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "e40f25640b4d5872b76c7324b35dd995d041fd409ca4fa4e93f8c6a1dfb4fbcc"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "941194b650fa31742558efb25a2bc92b8bb6089da8cbf0f0eed096a6f76138b6"
+metafile = true
+
+[[files]]
+file = "mods/fastload.pw.toml"
+hash = "76fb1070a6a4578dafcdce08b7f4c65be43401120e6f356b7b3d8507b596d8b7"
 metafile = true
 
 [[files]]
@@ -520,6 +535,11 @@ hash = "f08e47a8b608a67794114836dcefe16e07c853ca4271c2fa8def9bd84b58020e"
 metafile = true
 
 [[files]]
+file = "mods/oculus.pw.toml"
+hash = "524acd510387c61c5f3c984e605fae03015434ae756b683d3b45a95951180394"
+metafile = true
+
+[[files]]
 file = "mods/overloaded-armor-bar.pw.toml"
 hash = "65ba55b95c910d696029b5e1c735241062ea80d5bad76e22e9e79697279cde30"
 metafile = true
@@ -592,6 +612,11 @@ metafile = true
 [[files]]
 file = "mods/rftools-utility.pw.toml"
 hash = "98b6a4de348910cc31bd3a782ab9c38abadef6bca7ec32bd047059b3311ad796"
+metafile = true
+
+[[files]]
+file = "mods/saturn.pw.toml"
+hash = "45646ed86d783d82cc2b804466d4aaf06a67e14766928f17134d02558179f3f0"
 metafile = true
 
 [[files]]
@@ -692,6 +717,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "05bf4c054b1346db1696d76ebbbea07fc30668251a3c78905a98b3045df4dbf7"
+metafile = true
+
+[[files]]
+file = "mods/weather-storms-tornadoes.pw.toml"
+hash = "fd57040aa76f9aa1ef678020b623c37c9a1ce0cced3d93fda9c9db6bfe94776c"
 metafile = true
 
 [[files]]
