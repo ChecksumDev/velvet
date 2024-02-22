@@ -95,6 +95,11 @@ hash = "ca52b58cf0540bcec5d8b0318cddb371683b6f3f87ad9b925ff600ddd330f461"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "33e828c63a098d971fb2b98cfa0f90bf96337d3a254afdc863463f4d62b57781"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "119c6183e0ee766c12e155250b3efff9dde67783453a1cfd421fce7ce168ca2b"
 metafile = true
@@ -327,11 +332,6 @@ metafile = true
 [[files]]
 file = "mods/farming-for-blockheads.pw.toml"
 hash = "77b767098e20ebf32ab9e320c99222dc03b486f3a536654696065e00293c1614"
-metafile = true
-
-[[files]]
-file = "mods/fast-ip-ping.pw.toml"
-hash = "e40f25640b4d5872b76c7324b35dd995d041fd409ca4fa4e93f8c6a1dfb4fbcc"
 metafile = true
 
 [[files]]
@@ -697,6 +697,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "97ff489cce6b7ad5a4ed965e09a960efc5f6ad7a6cf4f070a47c8de8d00d917f"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15883b352385c520391c036ae0965269c413e3e6fbd6f12dd8c38618db25c2b5"
 metafile = true
 
 [[files]]
