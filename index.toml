@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build-pack.yml"
+hash = "fdb970300bf569410f3cfbb518e1b5463dd19509c80ffb21bb1332e85ed6ff59"
+
+[[files]]
 file = "README.md"
 hash = "ab6cd1a1804d135eb4ba3811fdc5909e987129c83f17ef389667e9124214eb53"
 
@@ -161,7 +165,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "c45d7509a4d7da384f6bd8f1474a4d8d066ad39b515f96d7a1b1009ca74d568d"
+hash = "873040795be9cbdbbfc6254e3d8cee267c275cfcc9fa30b6af3461898740e0ef"
 metafile = true
 
 [[files]]
