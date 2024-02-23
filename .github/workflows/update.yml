@@ -19,7 +19,7 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
 
       - name: Update all mods
-        run: packwiz update --all
+        run: packwiz update -y --all
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
