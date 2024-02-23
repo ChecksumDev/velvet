@@ -2,7 +2,7 @@ name: Build Velvet
 
 on:
   push:
-    branches: [$default-branch]
+    branches: [main]
 
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Go
         uses: actions/setup-go@v5
 
