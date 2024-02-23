@@ -523,6 +523,11 @@ hash = "78db2c329fdaebddaff88e17b28c9fa0791497ace8fe2337ab1516129b2bd994"
 metafile = true
 
 [[files]]
+file = "mods/nevermore.pw.toml"
+hash = "a4ac05ba3b0eff327fc4fff1a07a84516a995c7820d3a9e8854912157b2e9925"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
 metafile = true
@@ -625,6 +630,11 @@ metafile = true
 [[files]]
 file = "mods/rftools-utility.pw.toml"
 hash = "98b6a4de348910cc31bd3a782ab9c38abadef6bca7ec32bd047059b3311ad796"
+metafile = true
+
+[[files]]
+file = "mods/sanguine.pw.toml"
+hash = "94e3bc7af966cba38a5495c712a660e821562a4684dda381910d64191f972b2b"
 metafile = true
 
 [[files]]
