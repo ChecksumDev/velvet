@@ -10,10 +10,6 @@ file = ".github/workflows/update.yml"
 file = "README.md"
 
 [[files]]
-file = "src/faithful-32x.pw.toml"
-metafile = true
-
-[[files]]
 file = "src/mods/3dskinlayers.pw.toml"
 metafile = true
 
@@ -631,14 +627,6 @@ metafile = true
 
 [[files]]
 file = "src/mods/zerocore.pw.toml"
-metafile = true
-
-[[files]]
-file = "src/resourcepacks/faithful-32x.pw.toml"
-metafile = true
-
-[[files]]
-file = "src/resourcepacks/fast-better-grass.pw.toml"
 metafile = true
 
 [[files]]
