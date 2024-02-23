@@ -26,13 +26,13 @@ jobs:
       - name: Upload Modrinth to GitHub Releases
         uses: actions/upload-artifact@v2
         with:
-          name: velvet
+          name: velvet.mrpack
           path: velvet-*.mrpack
           if-no-files-found: error
 
       - name: Upload CurseForge to GitHub Releases
         uses: actions/upload-artifact@v2
         with:
-          name: velvet
+          name: velvet.zip
           path: velvet-*.zip
           if-no-files-found: error
