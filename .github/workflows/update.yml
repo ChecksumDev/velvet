@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  build:
+  packwiz:
     runs-on: ubuntu-latest
 
     steps:
