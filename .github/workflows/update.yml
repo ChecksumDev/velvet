@@ -22,7 +22,10 @@ jobs:
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Update all mods
+      - name: Refresh packwiz index
+        run: packwiz refresh
+
+      - name: Update mods
         run: packwiz update -y --all
 
       - name: Create Pull Request

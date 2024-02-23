@@ -1,0 +1,13 @@
+name = "Unique Dark"
+filename = "Unique Dark 1.20.1 v1.31 (free).zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "38e619bd0b964df9a78e08a25251b5fdd99bfec7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5130741
+project-id = 853880
