@@ -27,4 +27,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git commit -am "chore: refresh index" && git push
+          git config --local user.email "me@checksum.space"
+          git config --local user.name "Checksum"
+          git add .
+          git commit -am "chore: refresh index"
+          git push
