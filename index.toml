@@ -2,15 +2,35 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/build.yml"
-hash = "abfa1105e6b5c597b7d789c378a1c4f179532acb910289c90640192cc13e25d2"
+hash = "a336559803d89d5f745971b1454abce77eca0c3ef3b22356826597630e9b00c1"
+
+[[files]]
+file = ".github/workflows/index.yml"
+hash = "c07b3b3f51d26a4bbf7586409780b43f78356c10128852d35930a62d4bb31868"
+
+[[files]]
+file = ".github/workflows/release.yml"
+hash = "81ac85c5d9924f384744cb3f455b4a2effc1e39f8a29db7e47dd14d28b6cc4cb"
+
+[[files]]
+file = ".github/workflows/semver.yml"
+hash = "82efdbd288749dd14736a119cf412d32c28d83103b47abff0aa653e70ea659e4"
 
 [[files]]
 file = ".github/workflows/update.yml"
 hash = "45a70dfd83d40fabf8b467631908f12529727f52fe8676d407e8d6d8a18ac18e"
 
 [[files]]
+file = ".release-please-manifest.json"
+hash = "fd9049bc678a725bf7df1d80b2bb3224b9b7f6257032f871bf757457c6da00ef"
+
+[[files]]
 file = "README.md"
-hash = "98f0527213c73bb84d9378387232a03911d0b35f22c6ab5e5a392318a3c22122"
+hash = "f963133096e3dbd1b07f6c1e57c8b1a2f6194c725e75eb90872aaa7db0e4b5c3"
+
+[[files]]
+file = "docs/automatic-updates.md"
+hash = "f0d5b9e36de8419054703ba0879b33fe3cb528c5fd406450558ed71418a287af"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -796,6 +816,10 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "1aff3be39eccf3b042e8279b38c457b48d350e32eee8e4cce9d11455d636c34d"
 metafile = true
+
+[[files]]
+file = "release-please-config.json"
+hash = "6a7b1225ecf593134b6b628e265df23eed563c2e74c5f1aed217a095224eae64"
 
 [[files]]
 file = "resourcepacks/unique-dark-gui-modded-compat.pw.toml"
