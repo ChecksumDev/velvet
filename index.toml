@@ -22,7 +22,11 @@ hash = "45a70dfd83d40fabf8b467631908f12529727f52fe8676d407e8d6d8a18ac18e"
 
 [[files]]
 file = ".release-please-manifest.json"
-hash = "fd9049bc678a725bf7df1d80b2bb3224b9b7f6257032f871bf757457c6da00ef"
+hash = "094e999a4adf5fbf58bfa652400a467e738ed710bb86c23c91fc014ea5e72d66"
+
+[[files]]
+file = "CHANGELOG.md"
+hash = "6a628dbffb47d960e6b19b07135137a71fbcd725f46be95aad96eeeb2a6cf663"
 
 [[files]]
 file = "README.md"
