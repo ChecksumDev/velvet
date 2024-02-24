@@ -5,32 +5,12 @@ file = ".github/workflows/build.yml"
 hash = "a336559803d89d5f745971b1454abce77eca0c3ef3b22356826597630e9b00c1"
 
 [[files]]
-file = ".github/workflows/index.yml"
-hash = "c07b3b3f51d26a4bbf7586409780b43f78356c10128852d35930a62d4bb31868"
-
-[[files]]
-file = ".github/workflows/release.yml"
-hash = "81ac85c5d9924f384744cb3f455b4a2effc1e39f8a29db7e47dd14d28b6cc4cb"
-
-[[files]]
-file = ".github/workflows/semver.yml"
-hash = "82efdbd288749dd14736a119cf412d32c28d83103b47abff0aa653e70ea659e4"
-
-[[files]]
 file = ".github/workflows/update.yml"
-hash = "45a70dfd83d40fabf8b467631908f12529727f52fe8676d407e8d6d8a18ac18e"
-
-[[files]]
-file = ".release-please-manifest.json"
-hash = "094e999a4adf5fbf58bfa652400a467e738ed710bb86c23c91fc014ea5e72d66"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "6a628dbffb47d960e6b19b07135137a71fbcd725f46be95aad96eeeb2a6cf663"
+hash = "fbab14b8d37dcdce8868feae7ccc269d44923405153989059db1e9a70b26322b"
 
 [[files]]
 file = "README.md"
-hash = "f963133096e3dbd1b07f6c1e57c8b1a2f6194c725e75eb90872aaa7db0e4b5c3"
+hash = "6dfc90705cc9d477a14b9d6bf760d9d256fdb65168547c21bd90434d39a1aa31"
 
 [[files]]
 file = "docs/automatic-updates.md"
@@ -273,7 +253,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclic.pw.toml"
-hash = "fbe5d331fc48d89567949119cb5a8dc835eaff5cafbc62531eaf8597aa32d020"
+hash = "cc062e5753ecec58eb89a597b1b6cf2ce83a5d946045641cc0d937ac43d9bad0"
 metafile = true
 
 [[files]]
@@ -413,12 +393,12 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "f0f23eac48840383ebaf52be4efe094efd0f57a63f338c25c79d5f3ec3d73c3f"
+hash = "cd78d571bf4a7e90cf67e1bfaa868bb2fecf396eff126b2313ff846ae834ed68"
 metafile = true
 
 [[files]]
 file = "mods/hammer-lib.pw.toml"
-hash = "0259ff86b5c5655cbe9a25c626dcabc76cc049a82cce44af54a652fd4474f021"
+hash = "074ada3a4ff8e2e649e4bc977a4a2ff6eb6818f1808d9c66220319885e75a17a"
 metafile = true
 
 [[files]]
@@ -508,7 +488,7 @@ metafile = true
 
 [[files]]
 file = "mods/mob-grinding-utils.pw.toml"
-hash = "8885a270b8065fd0477078f258b8d59fa07b3cc1a7cfb30ec3f298b380f4cefb"
+hash = "22ffca942573f1c39cc6c495122a31706a12eeb655c013c6c017aa1306ccaf7b"
 metafile = true
 
 [[files]]
@@ -713,7 +693,7 @@ metafile = true
 
 [[files]]
 file = "mods/solar-flux-reborn.pw.toml"
-hash = "dddf7214b69a58578e48cbec197c2a25366c6dc664be57b5a2e8f8f621709b70"
+hash = "d11e000fb28e72f0fed1c0e4bccd2e59fd04c08c139508f3803650c49ad2ae08"
 metafile = true
 
 [[files]]
@@ -820,10 +800,6 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "1aff3be39eccf3b042e8279b38c457b48d350e32eee8e4cce9d11455d636c34d"
 metafile = true
-
-[[files]]
-file = "release-please-config.json"
-hash = "6a7b1225ecf593134b6b628e265df23eed563c2e74c5f1aed217a095224eae64"
 
 [[files]]
 file = "resourcepacks/unique-dark-gui-modded-compat.pw.toml"
