@@ -1,0 +1,44 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: Release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        id: release
+        with:
+          token: ${{ github.token }}
+          release-type: simple
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Build for Modrinth
+        run: packwiz modrinth export
+
+      - name: Build for CurseForge
+        run: packwiz curseforge export
+
+      - name: Upload CurseForge modpack
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ./velvet-${{ steps.release.outputs.tag_name }}.zip
+
+      - name: Upload Modrinth modpack
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} ./velvet-${{ steps.release.outputs.tag_name }}.mrpack
