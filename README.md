@@ -14,7 +14,7 @@ Velvet offers a vast collection of Minecraft mods focused on enhancing your game
 
 ## Installation 📦
 
-1. **Prism Launcher (Recommended):** Download [Prism Launcher](https://prismlauncher.org) and directly import `velvet-prism.zip` from the [latest release](https://github.com/checksumdev/velvet/releases). This gives you automatic updates and a hassle-free experience.
+1. **Prism Launcher (Recommended):** Download [Prism Launcher](https://prismlauncher.org) and directly import the `velvet.mrpack` from the [latest release](https://github.com/checksumdev/velvet/releases). To setup automatic updates, see [here](https://github.com/checksumdev/velvet/blob/stable/docs/automatic-updates.md).
 
 2. **Other Launchers:** Download the latest `.mrpack` (Modrinth) or `.zip` (CurseForge) from the [latest release](https://github.com/checksumdev/velvet/releases) and import it into your launcher of choice.
 
