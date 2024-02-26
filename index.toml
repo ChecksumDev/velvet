@@ -173,7 +173,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "873040795be9cbdbbfc6254e3d8cee267c275cfcc9fa30b6af3461898740e0ef"
+hash = "cad7747f32756cb82cb59a432e3dee87c94f299d5011d22b2a17a999d9692206"
 metafile = true
 
 [[files]]
@@ -293,7 +293,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "270052ac202f86fe68a360a2c2775353bcc62f115550c1bbd89d9bae1c602709"
+hash = "fceff1d5ce3beeb10134ea77fee3b1a23ac0051cb77e06cfb8a1b4a1e3056ac4"
 metafile = true
 
 [[files]]
