@@ -337,6 +337,11 @@ hash = "ebb242e321ae99b8802c08adcd82cc7fadbe89234749f5d7543264b1bc53661b"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "1c2381641ce69d688a86eb01196d00f7fbbaa0be45b31c4f2b00aa9f966a7190"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "dec4a848fbbd45662a533444aa0749c230deb718b5117ceb279963e91ac78f85"
 metafile = true
@@ -479,6 +484,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism.pw.toml"
 hash = "35afdc85d751490e3ee6cbc5bf7b18b1a7b63339896712ce742fb6bc45734028"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "0d48dec6e4adc2e7d683208cac4298bc22979fc8a354ae560cf10870e9a86d38"
 metafile = true
 
 [[files]]
