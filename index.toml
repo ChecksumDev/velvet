@@ -308,6 +308,11 @@ hash = "2556e3b026a3cd00bad5d7da0894d1d2e8dbb5afeabb877367bd489659ec80c9"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "91c2538d726a12623122d1a2945a6ad3d2d5b290d43c72149f21af560e8465eb"
+metafile = true
+
+[[files]]
 file = "mods/ding.pw.toml"
 hash = "9a47ae3e125db2d8222de6b8e145678687201e500f9b788b9fd014619db091c3"
 metafile = true
