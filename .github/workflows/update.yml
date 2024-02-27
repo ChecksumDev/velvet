@@ -1,0 +1,41 @@
+name: Packwiz Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  packwiz:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh packwiz index
+        run: packwiz refresh
+
+      - name: Update mods
+        run: packwiz update -y --all
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ github.token }}
+          commit-message: "fix: update all mods"
+          title: "fix: update all mods"
+          body: "This pull request updates all mods to their latest versions."
+          branch: packwiz
+          base: main
+          labels: "packwiz"
+          reviewers: "checksumdev"
