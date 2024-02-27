@@ -1,20 +1,56 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/build.yml"
-hash = "a336559803d89d5f745971b1454abce77eca0c3ef3b22356826597630e9b00c1"
+file = "config/fancymenu/assets/cake.png"
+hash = "235d42f2d3e52c19c0af4aaa50182a7ee99fedc36d0ec214ab749a5118992d5e"
 
 [[files]]
-file = ".github/workflows/update.yml"
-hash = "fbab14b8d37dcdce8868feae7ccc269d44923405153989059db1e9a70b26322b"
+file = "config/fancymenu/assets/mojang.png"
+hash = "a48f6a72957e96e401cf9fce19afef29c3fd51a64eea9e0e883cec7e036eb8e2"
 
 [[files]]
-file = "README.md"
-hash = "6dfc90705cc9d477a14b9d6bf760d9d256fdb65168547c21bd90434d39a1aa31"
+file = "config/fancymenu/assets/velvet_edition.png"
+hash = "6db55d90192bd8acc4291cf4361609d453625395de136b7b37eb19620e388ad4"
 
 [[files]]
-file = "docs/automatic-updates.md"
-hash = "f0d5b9e36de8419054703ba0879b33fe3cb528c5fd406450558ed71418a287af"
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "f33ec3d79603c2856c14d96ce563529861ca58f616781d3d78c058926b08fafb"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "dc0cf321ba4e194c4d82d1321fba09bc76d528a4167012e951816b0d23c67faf"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "f5195de200eda5860ecc6b6933aa0023032a1b0210cf80609de3f639bf41c6f5"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "057cb78e9f38d3613b66eea43ec8e1a82e78edc7aec572b21e5e1e95dc77a976"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "56451fba2e61496c0545622268ec8bfee9abc38a0f553462dd10f06a28fe8793"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -287,6 +323,11 @@ hash = "b50027efa8c9bedc81a2d7287f91381da1097b4d12b68d04d0f6421d5d294ad8"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "a49da0eb6aebdcfbd6d3436aaeb23bca3fb47f2c7100adaafe625b929f68013b"
+metafile = true
+
+[[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "ee1b4b6d53fce1aa5a3eaa8cb321b56e55a9e3fffeb31152ab1dcd130284eaf1"
 metafile = true
@@ -334,6 +375,11 @@ metafile = true
 [[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "ebb242e321ae99b8802c08adcd82cc7fadbe89234749f5d7543264b1bc53661b"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "1c2381641ce69d688a86eb01196d00f7fbbaa0be45b31c4f2b00aa9f966a7190"
 metafile = true
 
 [[files]]
@@ -482,6 +528,11 @@ hash = "35afdc85d751490e3ee6cbc5bf7b18b1a7b63339896712ce742fb6bc45734028"
 metafile = true
 
 [[files]]
+file = "mods/melody.pw.toml"
+hash = "0d48dec6e4adc2e7d683208cac4298bc22979fc8a354ae560cf10870e9a86d38"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
@@ -564,6 +615,11 @@ metafile = true
 [[files]]
 file = "mods/overloaded-armor-bar.pw.toml"
 hash = "65ba55b95c910d696029b5e1c735241062ea80d5bad76e22e9e79697279cde30"
+metafile = true
+
+[[files]]
+file = "mods/panoramica.pw.toml"
+hash = "4c677fdd54d8f812a4dd553e4252d9a04a0bc2fe9da4039c6998ec81b54397e0"
 metafile = true
 
 [[files]]
