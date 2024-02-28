@@ -129,7 +129,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "73b223e3640386229fdb826495cb3d024879f9f7792bf465e51ed6c6ac026971"
+hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
 
 [[files]]
@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
-hash = "259636601b21c7ae999f27ea087149a9a004cb7c688ca6b37c63f0e2d81ed1f9"
+hash = "9879468ba172a200dc9c02d81ee691236ad697892d047b39b45be099842471c6"
 metafile = true
 
 [[files]]
@@ -384,7 +384,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "1c2381641ce69d688a86eb01196d00f7fbbaa0be45b31c4f2b00aa9f966a7190"
+hash = "5fa124fb8feb7358a0eda4acf5bed5b2e857570e255548ee00ca8961467b0819"
 metafile = true
 
 [[files]]
