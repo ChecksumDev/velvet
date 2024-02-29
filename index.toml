@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "148a9a6d8596850031748d984bc5c52148cfac84c9c84e7b5bbedfa4e1a37371"
+
+[[files]]
 file = "config/fancymenu/assets/cake.png"
 hash = "235d42f2d3e52c19c0af4aaa50182a7ee99fedc36d0ec214ab749a5118992d5e"
 
@@ -339,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "fceff1d5ce3beeb10134ea77fee3b1a23ac0051cb77e06cfb8a1b4a1e3056ac4"
+hash = "ea2639ec3a44bad8a70b46f259b697f317ee61c16d5175d53ab54b22e3ed376d"
 metafile = true
 
 [[files]]
@@ -649,7 +653,7 @@ metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "5645bfccd85305ce3d11a5c6d814fb207efda7d38954c8b7b75f1c4eb9cec338"
+hash = "895fa67dd332c7639e9e941a6a7138e93c4859c938ae4c2ff59ac7aa07a867cc"
 metafile = true
 
 [[files]]
