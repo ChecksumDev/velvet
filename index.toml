@@ -163,7 +163,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-gadgets.pw.toml"
-hash = "d45de601e97a45920d5b22f954243dd9cb3bd8cb54167fc09dd9aefec41e8fcf"
+hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
 metafile = true
 
 [[files]]
@@ -814,6 +814,11 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "3c9b481baf1f2eca22fe731934427e1d832fc4344a73c7b0f6e1880735c7e4dd"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "e637003e8a5b243d10be41308ae9a3e4e0a258040198ad20cffd2de387b9bb36"
 metafile = true
 
 [[files]]
