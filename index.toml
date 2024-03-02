@@ -547,6 +547,11 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
+file = "mods/mindful-darkness.pw.toml"
+hash = "9f3c9d8b2d5399bde5cb1b57c66821e70e28e539cd643f291771e774579ea353"
+metafile = true
+
+[[files]]
 file = "mods/mob-grinding-utils.pw.toml"
 hash = "22ffca942573f1c39cc6c495122a31706a12eeb655c013c6c017aa1306ccaf7b"
 metafile = true
@@ -652,6 +657,11 @@ hash = "0eddd9f929632d0c6c5356347775449994f6fa06067874ff0186f42b94a2db2f"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "af94e8930aa37a5be7510b721d3cde32e40ef60964cd10bf701491a43ba4744a"
+metafile = true
+
+[[files]]
 file = "mods/raised.pw.toml"
 hash = "895fa67dd332c7639e9e941a6a7138e93c4859c938ae4c2ff59ac7aa07a867cc"
 metafile = true
@@ -748,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "13a65b847306aa21ddf55ebbe3e52e4dc15a883ca08335e4e0ea6dc1d8da0917"
+hash = "493902c502de37691af4888e7196c657e96561287c1999e9894c13607ab19ab8"
 metafile = true
 
 [[files]]
@@ -817,6 +827,11 @@ hash = "3c9b481baf1f2eca22fe731934427e1d832fc4344a73c7b0f6e1880735c7e4dd"
 metafile = true
 
 [[files]]
+file = "mods/true-darkness-forge-updated-fork.pw.toml"
+hash = "7c5434ba889898e6f88bb323ff25d47bd2fc693ad0a259a920f644f23b1979d6"
+metafile = true
+
+[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "e637003e8a5b243d10be41308ae9a3e4e0a258040198ad20cffd2de387b9bb36"
 metafile = true
@@ -869,14 +884,4 @@ metafile = true
 [[files]]
 file = "mods/zerocore.pw.toml"
 hash = "1aff3be39eccf3b042e8279b38c457b48d350e32eee8e4cce9d11455d636c34d"
-metafile = true
-
-[[files]]
-file = "resourcepacks/unique-dark-gui-modded-compat.pw.toml"
-hash = "ec036fc3aa68cd10c1535e658deb1526d5ea42bd3b6805092930fd702b235601"
-metafile = true
-
-[[files]]
-file = "resourcepacks/unique-dark.pw.toml"
-hash = "f6942d79c197aceb3916296e1c4467af3ed25267f63ed442462017b2b6737fc7"
 metafile = true
