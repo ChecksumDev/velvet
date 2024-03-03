@@ -10,11 +10,11 @@ hash = "235d42f2d3e52c19c0af4aaa50182a7ee99fedc36d0ec214ab749a5118992d5e"
 
 [[files]]
 file = "config/fancymenu/assets/mojang.png"
-hash = "a48f6a72957e96e401cf9fce19afef29c3fd51a64eea9e0e883cec7e036eb8e2"
+hash = "4e900dd1423b90eb28268ef8a653fef4d9f53f687486805d129a94992a4f762f"
 
 [[files]]
 file = "config/fancymenu/assets/velvet_edition.png"
-hash = "6db55d90192bd8acc4291cf4361609d453625395de136b7b37eb19620e388ad4"
+hash = "175c0ece877825599d98108637663853ba077a579abf359ebd23b3c66fc5bcff"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -197,6 +197,11 @@ hash = "d1d6ff2b3749a159e309433d774a85b485a1d72931363cd181192bfb95b85c44"
 metafile = true
 
 [[files]]
+file = "mods/citadel.pw.toml"
+hash = "e06b4f6a4a5fa7982439f57ca5015b616c606789d9deef0ddb78838b85306fed"
+metafile = true
+
+[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "e690e6f1d8e2706e4289bd4123afad0caf6406455f5afd5c9c0fa272e3c8a06c"
 metafile = true
@@ -324,6 +329,11 @@ metafile = true
 [[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "fe79cc78adf75a5aa3f32b2ac61a141ee7a4db1baebf628bee058a9c4381b255"
+metafile = true
+
+[[files]]
+file = "mods/domestication-innovation.pw.toml"
+hash = "815edded2c6be145f2a82e48a4044955e4969a220d29d4290f395d38a6ff15e8"
 metafile = true
 
 [[files]]
@@ -667,6 +677,11 @@ hash = "895fa67dd332c7639e9e941a6a7138e93c4859c938ae4c2ff59ac7aa07a867cc"
 metafile = true
 
 [[files]]
+file = "mods/realistic-torches.pw.toml"
+hash = "9f2fb170a3429895444aadc9df7120b689877ec1131284acd3454314c15cae0c"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "92b0bc142a7cbc4af73ec922b72e9ab6f7b41cedc35a7dbbd49bbc3d66f88fcc"
 metafile = true
@@ -809,6 +824,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15883b352385c520391c036ae0965269c413e3e6fbd6f12dd8c38618db25c2b5"
+metafile = true
+
+[[files]]
+file = "mods/the-man-from-the-fog.pw.toml"
+hash = "c9da53f01942e8a8f33a577d9f6658491aa987059a2bb2d888684bfea031cbff"
 metafile = true
 
 [[files]]
