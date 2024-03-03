@@ -1,0 +1,13 @@
+name = "The Man From The Fog"
+filename = "the man 1.20.1 - 1.2.1b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hIZHlLOF/versions/NVjh4r3S/the%20man%201.20.1%20-%201.2.1b.jar"
+hash-format = "sha1"
+hash = "db9b9522e342f88eb122bcb0445eefb9d1ce9926"
+
+[update]
+[update.modrinth]
+mod-id = "hIZHlLOF"
+version = "NVjh4r3S"
