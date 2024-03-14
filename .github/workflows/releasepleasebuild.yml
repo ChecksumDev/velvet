@@ -34,8 +34,14 @@ jobs:
                         
                         - name: Get COMMIT_ID id
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
-
-                        - run: echo "version = ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                        - name: Setup git and pull release please action pr / branch
+                          run: |
+                            git branch release-please--branches--main
+                            git config --global user.name '${{ env.commitUsername }}'
+                            git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
+                            git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
+                            git pull
+                        - run: echo "${{steps.release.outputs }}"
                         - name: Update Packwiz pack version
                           uses: jacobtomlinson/gha-find-replace@v2
                           with:
@@ -45,14 +51,19 @@ jobs:
                                   include: "pack.toml"
                         - name: Commit new Packwiz pack version
                           run: |
-                            git branch release-please--branches--main
-                            git config --global user.name '${{ env.commitUsername }}'
-                            git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
-                            git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
                             git add pack.toml
                             git commit -m "Update Packwiz Version"
                             git push origin release-please--branches--main
                             git branch ${{env.REPO_NAME}}
+                            git pull
+                            asdfafsgadfg
+                        - name: Update Packwiz pack version (Again, for Release building)
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                    find: ${{env.packWizCurrVersion}}
+                                    replace: "version = ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                                    regex: false
+                                    include: "pack.toml"
                         
 
                         - name: Create Packwiz Pack URL for Prism Self Updating Instance
