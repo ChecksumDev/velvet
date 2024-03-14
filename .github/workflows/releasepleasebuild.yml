@@ -45,6 +45,7 @@ jobs:
                             git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
                             git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
                             git config pull.rebase false  # merge
+                            git clone https://github.com/${{ github.repository }}
                             git pull origin release-please--branches--main
                             git branch release-please--branches--main
                         - run: echo "${{toJson(steps.release.outputs) }}"
