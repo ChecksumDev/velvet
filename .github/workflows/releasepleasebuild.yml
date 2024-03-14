@@ -55,7 +55,7 @@ jobs:
                         - name: Commit new Packwiz pack version
                           run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git add pack.toml
                         - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git commit -m "Update Packwiz Version"
-                        - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git push origin release-please--branches--main
+                        - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git push origin HEAD
                         - name: Update Packwiz pack version (Again, for Release building)
                           uses: jacobtomlinson/gha-find-replace@v2
                           if: ${{ steps.release.outputs.release_created }}
