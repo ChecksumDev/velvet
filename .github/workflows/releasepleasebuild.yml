@@ -61,7 +61,7 @@ jobs:
                           if: ${{ steps.release.outputs.release_created }}
                         - name: Update Packwiz pack version
                           if: ${{ steps.release.outputs.release_created }}
-                          run: sed -i 's/${{env.packWizCurrVersion}}/version = "0.1.2"/g' ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
+                          run: sed -i 's/${{env.packWizCurrVersion}}/version = "${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"/g' ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                           if: ${{ steps.release.outputs.release_created }}
                         - name: Commit new Packwiz pack version
@@ -75,11 +75,9 @@ jobs:
                           if: ${{ steps.release.outputs.release_created }}
                           with:
                                     find: ${{env.packWizCurrVersion}}
-                                    replace: "version = 0.0.0" #${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                                    replace: "version = \"${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}\""
                                     regex: false
                                     include: "pack.toml"
-                        
-
                         - name: Create Packwiz Pack URL for Prism Self Updating Instance
                           run: echo "PACKWIZ_URL=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/pack.toml" >> $GITHUB_ENV
 
@@ -174,5 +172,5 @@ jobs:
                           env:
                                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
-                        - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git push origin HEAD:release-please--branches--main
+                        - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git push origin HEAD
                           if: ${{ steps.release.outputs.release_created }}
