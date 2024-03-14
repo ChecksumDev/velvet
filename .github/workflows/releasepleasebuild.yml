@@ -43,10 +43,10 @@ jobs:
                         - run:    git config --global pull.rebase false  # merge
                         - run:    mkdir ../packwiz-fix &&ls ../packwiz-fix
                         
-                        - run:   cd ../packwiz-fix && ls && git clone https://github.com/${{ github.repository }} && ls && ls ../packwiz-fix
-                        - run:   cd ../packwiz-fix && ls && git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }} 
-                        - run:   cd ../packwiz-fix && ls && git pull origin release-please--branches--main 
-                        - run:   cd ../packwiz-fix && ls && git branch release-please--branches--main
+                        - run:   cd ../packwiz-fix && ls && git clone https://github.com/${{ github.repository }} && ls && ls ../packwiz-fix/velvet
+                        - run:   cd ../packwiz-fix/velvet && ls && git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }} 
+                        - run:   cd ../packwiz-fix/velvet && ls && git pull origin release-please--branches--main 
+                        - run:   cd ../packwiz-fix/velvet && ls && git branch release-please--branches--main
                         - run: echo "${{toJson(steps.release.outputs) }}"
                         - name: Update Packwiz pack version
                           uses: jacobtomlinson/gha-find-replace@v2
@@ -56,9 +56,9 @@ jobs:
                                   regex: false
                                   include: "../packwiz-fix/pack.toml"
                         - name: Commit new Packwiz pack version
-                          run:     cd ../packwiz-fix && ls && git add pack.toml
-                        - run:     cd ../packwiz-fix && ls && git commit -mo "Update Packwiz Version"
-                        - run:     cd ../packwiz-fix && ls && git push origin release-please--branches--main
+                          run:     cd ../packwiz-fix/velvet && ls && git add pack.toml
+                        - run:     cd ../packwiz-fix/velvet && ls && git commit -mo "Update Packwiz Version"
+                        - run:     cd ../packwiz-fix/velvet && ls && git push origin release-please--branches--main
                         - name: Update Packwiz pack version (Again, for Release building)
                           uses: jacobtomlinson/gha-find-replace@v2
                           if: ${{ steps.release.outputs.release_created }}
