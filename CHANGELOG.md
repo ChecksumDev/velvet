@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/lilysoftpaw/velvet/compare/v1.1.3...v1.1.4) (2024-03-14)
+
+
+### Bug Fixes
+
+* hopefully this is the last fix ([ee1e9e0](https://github.com/lilysoftpaw/velvet/commit/ee1e9e0d41e8f828109f0bb9dba871d084c2b0d4))
+
 ## [1.1.3](https://github.com/lilysoftpaw/velvet/compare/v1.1.2...v1.1.3) (2024-03-14)
 
 
