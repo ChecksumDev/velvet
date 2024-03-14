@@ -4,8 +4,7 @@ on:
         workflow_dispatch:
         push:
                 branches:
-                        - stable
-                        - main
+                        - turned-off
 env:
         prismInstanceFolderName: prismInstance
         prismInstanceName: Velvet Modpack Prism
