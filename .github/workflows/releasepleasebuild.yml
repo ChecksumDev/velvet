@@ -48,6 +48,7 @@ jobs:
                         - run:   cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git pull origin release-please--branches--main 
                         - run:   cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git branch release-please--branches--main
                         - run: echo "${{toJson(steps.release.outputs) }}"
+                        - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - name: Update Packwiz pack version
                           uses: jacobtomlinson/gha-find-replace@v2
                           with:
@@ -55,6 +56,7 @@ jobs:
                                   replace: "version = 1.2.3" # ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
                                   regex: false
                                   include: "../packwiz-fix/${{env.REPO_NAME}}/pack.toml"
+                        - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - name: Commit new Packwiz pack version
                           run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git add pack.toml
                         - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git commit -m "Update Packwiz Version"
