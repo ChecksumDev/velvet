@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/lilysoftpaw/velvet/compare/v1.1.1...v1.1.2) (2024-03-14)
+
+
+### Bug Fixes
+
+* Test and fun oh god ([c6e8505](https://github.com/lilysoftpaw/velvet/commit/c6e8505bf769085100e1c9f89acbd78f2a5163bd))
+
 ## [1.1.1](https://github.com/lilysoftpaw/velvet/compare/v1.1.0...v1.1.1) (2024-03-14)
 
 
