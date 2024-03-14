@@ -36,7 +36,7 @@ jobs:
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
                         - name: Setup git and pull release please action pr / branch
                           run: |
-                            git config pull.rebase true 
+                            git config pull.rebase false  # merge
                             git branch release-please--branches--main
                             git config --global user.name '${{ env.commitUsername }}'
                             git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
