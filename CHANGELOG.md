@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/lilysoftpaw/velvet/compare/v1.1.0...v1.1.1) (2024-03-14)
+
+
+### Bug Fixes
+
+* pack.toml blew itself up and action failed ([60ba907](https://github.com/lilysoftpaw/velvet/commit/60ba9075e81690d34f0119e8cd1726bf4a5102c5))
+* testing now why ugh release please being annoying ([3bd2bfb](https://github.com/lilysoftpaw/velvet/commit/3bd2bfb53729213740bf8056c44afe484138b8e0))
+
 ## [1.1.0](https://github.com/lilysoftpaw/velvet/compare/v1.0.0...v1.1.0) (2024-03-14)
 
 
