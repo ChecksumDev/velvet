@@ -31,11 +31,16 @@ jobs:
                                   release-type: simple
                         - name: Get Repo Name
                           run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
-                        
+                        - name: Get CWD
+                          run: echo "CWD=$(pwd)" >> $GITHUB_ENV
+                            
                         - name: Get COMMIT_ID id
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
                         - name: Setup git and pull release please action pr / branch
                           run: |
+                            
+                            mkdir ../packwiz-fix
+                            cd ../packwiz-fix
                             git config --global user.name '${{ env.commitUsername }}'
                             git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
                             git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
@@ -55,6 +60,7 @@ jobs:
                             git add pack.toml
                             git commit -mo "Update Packwiz Version"
                             git push origin release-please--branches--main
+                            cd ${{env.CWD}}
                             git branch ${{env.REPO_NAME}}
                             git pull
                             asdfafsgadfg
