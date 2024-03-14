@@ -37,18 +37,20 @@ jobs:
                         - name: Get COMMIT_ID id
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
                         - name: Setup git and pull release please action pr / branch
-                          run: |
-                            
-                            mkdir ../packwiz-fix
-                        - run:    cd ../packwiz-fix
+                          run:    ls
+                        - run:    mkdir ../packwiz-fix
+                        - run:    cd ..
+                        - run:    ls
+                        - run:    cd packwiz-fix
+                        - run:    ls
                         - run:    git config --global user.name '${{ env.commitUsername }}'
                         - run:    git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
-                           
                         - run:    git config pull.rebase false  # merge
                         - run:    git clone https://github.com/${{ github.repository }}
                         - run:    git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
                         - run:    git pull origin release-please--branches--main
                         - run:    git branch release-please--branches--main
+                        - run:    ls
                         - run: echo "${{toJson(steps.release.outputs) }}"
                         - name: Update Packwiz pack version
                           uses: jacobtomlinson/gha-find-replace@v2
@@ -58,8 +60,7 @@ jobs:
                                   regex: false
                                   include: "pack.toml"
                         - name: Commit new Packwiz pack version
-                          run: |
-                            git add pack.toml
+                          run: git add pack.toml
                         - run:     git commit -mo "Update Packwiz Version"
                         - run:     git push origin release-please--branches--main
                         - run:     cd ${{env.CWD}}
