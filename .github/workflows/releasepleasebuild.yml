@@ -36,6 +36,7 @@ jobs:
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
                         - name: Setup git and pull release please action pr / branch
                           run: |
+                            git config pull.rebase true 
                             git branch release-please--branches--main
                             git config --global user.name '${{ env.commitUsername }}'
                             git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
@@ -46,7 +47,7 @@ jobs:
                           uses: jacobtomlinson/gha-find-replace@v2
                           with:
                                   find: ${{env.packWizCurrVersion}}
-                                  replace: "version = ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                                  replace: "version = 0.0.0" # ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
                                   regex: false
                                   include: "pack.toml"
                         - name: Commit new Packwiz pack version
@@ -59,9 +60,10 @@ jobs:
                             asdfafsgadfg
                         - name: Update Packwiz pack version (Again, for Release building)
                           uses: jacobtomlinson/gha-find-replace@v2
+                          if: ${{ steps.release.outputs.release_created }}
                           with:
                                     find: ${{env.packWizCurrVersion}}
-                                    replace: "version = ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                                    replace: "version = 0.0.0" #${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
                                     regex: false
                                     include: "pack.toml"
                         
