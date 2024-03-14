@@ -50,12 +50,7 @@ jobs:
                         - run: echo "${{toJson(steps.release.outputs) }}"
                         - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - name: Update Packwiz pack version
-                          uses: jacobtomlinson/gha-find-replace@v2
-                          with:
-                                  find: ${{env.packWizCurrVersion}}
-                                  replace: "version = 1.2.3" # ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
-                                  regex: false
-                                  include: "../packwiz-fix/${{env.REPO_NAME}}/pack.toml"
+                          run: sed -i 's/${{env.packWizCurrVersion}}/version = "0.1.2"/g' ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                         - name: Commit new Packwiz pack version
                           run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git add pack.toml
