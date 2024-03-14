@@ -47,9 +47,11 @@ jobs:
                             git config --global user.name '${{ env.commitUsername }}'
                             git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
                             git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
+                            git branch release-please--branches--main
                             git add pack.toml
                             git commit -m "Update Packwiz Version"
-                            git push origin release-please--branches--main:main
+                            git push origin
+                            git branch ${{env.REPO_NAME}}
                         
 
                         - name: Create Packwiz Pack URL for Prism Self Updating Instance
