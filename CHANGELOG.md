@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/lilysoftpaw/velvet/compare/v1.1.2...v1.1.3) (2024-03-14)
+
+
+### Bug Fixes
+
+* Oh my fun fixing this stupid github action c: ([55a8cbd](https://github.com/lilysoftpaw/velvet/commit/55a8cbd29932ac6542efd14d3afedc664a20592c))
+
 ## [1.1.2](https://github.com/lilysoftpaw/velvet/compare/v1.1.1...v1.1.2) (2024-03-14)
 
 
