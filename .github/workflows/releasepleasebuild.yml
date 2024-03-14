@@ -1,0 +1,124 @@
+name: Build & Release Modpack [Release Please]
+
+on:
+        workflow_dispatch:
+        push:
+                branches:
+                        - stable
+                        - main
+env:
+        prismInstanceFolderName: prismInstance
+        prismInstanceName: Velvet Modpack Prism
+        prismInstanceAuthors: Checksum [ChecksumDev / chksmd / chksm] \(Modpack \& Packwiz\) \& Lilysoftpaw \(Github Actions Update\)
+        packwizInstallerBootstrapDownloadUrl: https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+
+jobs:
+        build:
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v4
+
+                        - name: Get COMMIT_ID id
+                          run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
+
+                        - name: Get Repo Name
+                          run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+
+                        - name: Create Packwiz Pack URL for Prism Self Updating Instance
+                          run: echo "PACKWIZ_URL=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/pack.toml" >> $GITHUB_ENV
+
+                        - name: Download the packwiz bootstrap for Prism Self Updating Instance
+                          run: curl -L -o ${{env.prismInstanceFolderName}}/.minecraft/packwiz-installer-bootstrap.jar ${{env.packwizInstallerBootstrapDownloadUrl}}
+
+                        - name: Update Prism Self Updating Instance Config [MODPACK_NAME] (instance.cfg)
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                  find: "FILLIN_MODPACK_NAME"
+                                  replace: ${{env.prismInstanceName}}
+                                  regex: false
+                                  include: "${{env.prismInstanceFolderName}}/instance.cfg"
+
+                        - name: Update Prism Self Updating Instance Config [MODPACK_EXPORT_NAME] (instance.cfg)
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                  find: "FILLIN_MODPACK_EXPORT_NAME"
+                                  replace: ${{env.prismInstanceName}}
+                                  regex: false
+                                  include: "${{env.prismInstanceFolderName}}/instance.cfg"
+
+                        - name: Update Prism Self Updating Instance Config [MODPACK_AUTHORS] (instance.cfg)
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                  find: "FILLIN_MODPACK_AUTHORS"
+                                  replace: ${{env.prismInstanceAuthors}}
+                                  regex: false
+                                  include: "${{env.prismInstanceFolderName}}/instance.cfg"
+
+                        - name: Update Prism Self Updating Instance Config [PACKWIZ_URL] (instance.cfg)
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                  find: "FILLIN_PACKWIZ_URL"
+                                  replace: ${{env.PACKWIZ_URL}}
+                                  regex: false
+                                  include: "${{env.prismInstanceFolderName}}/instance.cfg"
+
+                        - name: Install zip to zip Prism Self Updating Instance
+                          uses: montudor/action-zip@v1
+
+                        - name: Zip Prism Self Updating Instance
+                          run: zip -qq -r ../${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip . -i *.* -i .minecraft/*.*
+                          working-directory: ${{env.prismInstanceFolderName}}
+
+                        - name: Upload Prism Instance To Github Releases
+                          uses: actions/upload-artifact@v4
+                          with:
+                                  name: ${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
+                                  path: ${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
+                                  if-no-files-found: warn
+
+                        - name: Setup Go
+                          uses: actions/setup-go@v5
+
+                        - name: Install Packwiz
+                          run: go install github.com/packwiz/packwiz@latest
+
+                        - name: Build for Modrinth
+                          run: packwiz modrinth export --output ${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
+
+                        - name: Build for CurseForge
+                          run: packwiz curseforge export --output ${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
+
+                        - name: Upload Modrinth to GitHub Releases
+                          uses: actions/upload-artifact@v4
+                          with:
+                                  name: ${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
+                                  path: ${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
+                                  if-no-files-found: error
+
+                        - name: Upload CurseForge to GitHub Releases
+                          uses: actions/upload-artifact@v4
+                          with:
+                                  name: ${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
+                                  path: ${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
+                                  if-no-files-found: error
+
+                        - name: Github Release with release Please
+                          uses: google-github-actions/release-please-action@v4
+                          id: release
+                          with:
+                                  release-type: node
+                        - name: Upload Release Artifact [Modrinth]
+                          if: ${{ steps.release.outputs.release_created }}
+                          env:
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                          run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
+                        - name: Upload Release Artifact [Curseforge]
+                          if: ${{ steps.release.outputs.release_created }}
+                          env:
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                          run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
+                        - name: Upload Release Artifact [Prism]
+                          if: ${{ steps.release.outputs.release_created }}
+                          env:
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                          run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip

@@ -4,8 +4,9 @@ on:
         workflow_dispatch:
         push:
                 branches:
-                        - stable
-                        - main
+                        #- stable
+                       # - main<
+                       - turned_off
 env:
         prismInstanceFolderName: prismInstance
         prismInstanceName: Velvet Modpack Prism
@@ -109,10 +110,10 @@ jobs:
                                   tag_name: Release-Stable-${{env.COMMIT_ID}}
                                   name: Velvet Modpack Release - Stable - ${{env.COMMIT_ID}}
                                   body: |
-                                        ## Default options for the Prism Instance / Recommended Settings for other launchers.
+                                       ## Default options for the Prism Instance / Recommended Settings for other launchers.
                                         Default RAM: 8GB (8192MB)
                                         Required Java JDK/JRE: 17
-                                        Automated release - ${{env.COMMIT_ID}}
+                                       # Automated release - ${{env.COMMIT_ID}}
                                   append_body: true
                                   generate_release_notes: true
                                   # note you'll typically need to create a personal access token
