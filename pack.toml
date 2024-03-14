@@ -1,6 +1,6 @@
 name = "velvet"
 author = "Checksum"
-version = "0.1.2"
+version = "0.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
