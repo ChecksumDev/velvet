@@ -104,7 +104,7 @@ jobs:
 
                         - name: Release to Github Releases [STABLE]
                           uses: softprops/action-gh-release@v2
-                          if: env.REPO_NAME == 'stable'
+                          if: github.ref_name == 'stable'
                           with:
                                   tag_name: Release-Stable-${{env.COMMIT_ID}}
                                   name: Velvet Modpack Release - Stable - ${{env.COMMIT_ID}}
@@ -126,7 +126,7 @@ jobs:
                                           ${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
                         - name: Release to Github Releases [CI]
                           uses: softprops/action-gh-release@v2
-                          if: env.REPO_NAME == 'main'
+                          if: github.ref_name == 'main'
                           with:
                                   tag_name: Release-CI-${{env.COMMIT_ID}}
                                   name: Velvet Modpack Release - CI - ${{env.COMMIT_ID}}
