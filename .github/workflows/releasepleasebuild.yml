@@ -57,7 +57,7 @@ jobs:
                                   include: "../packwiz-fix/pack.toml"
                         - name: Commit new Packwiz pack version
                           run:     cd ../packwiz-fix/velvet && ls && git add pack.toml
-                        - run:     cd ../packwiz-fix/velvet && ls && git commit -mo "Update Packwiz Version"
+                        - run:     cd ../packwiz-fix/velvet && ls && git commit -o pack.toml -m "Update Packwiz Version"
                         - run:     cd ../packwiz-fix/velvet && ls && git push origin release-please--branches--main
                         - name: Update Packwiz pack version (Again, for Release building)
                           uses: jacobtomlinson/gha-find-replace@v2
