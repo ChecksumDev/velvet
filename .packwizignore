@@ -1,3 +1,5 @@
 *.md
 docs/
 .github/
+prismInstance/
+icon.png
