@@ -106,19 +106,20 @@ jobs:
                           uses: google-github-actions/release-please-action@v4
                           id: release
                           with:
+                                  token: ${{secrets.RELEASE_PLEASE_PAT}}
                                   release-type: simple
                         - name: Upload Release Artifact [Modrinth]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
                         - name: Upload Release Artifact [Curseforge]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
                         - name: Upload Release Artifact [Prism]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
