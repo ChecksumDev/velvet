@@ -4,8 +4,9 @@ on:
         workflow_dispatch:
         push:
                 branches:
-                        - stable
-                        - main
+                        - release-please
+                        #- stable
+                        #- main
 env:
         prismInstanceFolderName: prismInstance
         prismInstanceName: Velvet Modpack Prism
@@ -16,6 +17,11 @@ jobs:
         build:
                 runs-on: ubuntu-latest
                 steps:
+                        - name: Github Release with release Please
+                          uses: google-github-actions/release-please-action@v4
+                          id: release
+                          with:
+                                  release-type: simple
                         - uses: actions/checkout@v4
 
                         - name: Get COMMIT_ID id
@@ -102,24 +108,19 @@ jobs:
                                   path: ${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
                                   if-no-files-found: error
 
-                        - name: Github Release with release Please
-                          uses: google-github-actions/release-please-action@v4
-                          id: release
-                          with:
-                                  token: ${{secrets.RELEASE_PLEASE_PAT}}
-                                  release-type: simple
+                        
                         - name: Upload Release Artifact [Modrinth]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Modrinth_${{env.COMMIT_ID}}.mrpack
                         - name: Upload Release Artifact [Curseforge]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_Curseforge_${{env.COMMIT_ID}}.zip
                         - name: Upload Release Artifact [Prism]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
-                                  GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_PAT }}
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
