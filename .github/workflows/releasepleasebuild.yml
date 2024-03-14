@@ -55,8 +55,8 @@ jobs:
                           if: ${{ steps.release.outputs.release_created }}
                         - run:   cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git branch release-please--branches--main
                           if: ${{ steps.release.outputs.release_created }}
-                        - run: echo "${{toJson(steps.release.outputs) }}"
-                          if: ${{ steps.release.outputs.release_created }}
+                        # - run: echo "${{toJson(steps.release.outputs) }}"
+                          # if: ${{ steps.release.outputs.release_created }}
                         - run: cat ../packwiz-fix/${{env.REPO_NAME}}/pack.toml
                           if: ${{ steps.release.outputs.release_created }}
                         - name: Update Packwiz pack version
