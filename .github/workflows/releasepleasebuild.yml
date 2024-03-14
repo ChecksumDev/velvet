@@ -106,7 +106,7 @@ jobs:
                           uses: google-github-actions/release-please-action@v4
                           id: release
                           with:
-                                  release-type: node
+                                  release-type: simple
                         - name: Upload Release Artifact [Modrinth]
                           if: ${{ steps.release.outputs.release_created }}
                           env:
