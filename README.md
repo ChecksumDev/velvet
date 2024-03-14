@@ -20,12 +20,13 @@ Velvet offers a vast collection of Minecraft mods focused on enhancing your game
 > **NOTE**: Automatic updates are available only on the Prism Launcher.
 
 1. **Prism Launcher (Recommended):** Download [Prism Launcher](https://prismlauncher.org) and directly import the `velvet_PrismLauncher_XXXXXXX.zip` from the [latest release](https://github.com/checksumdev/velvet/releases/latest).
+> **NOTE**: You may download the latest automatically updating CI build for Prism as well, but keep in mind that the instance will automatically update with the CI Builds and not the Stable Builds.
 
 To setup automatic updates on an older release of velvet that was not built with automatic updates inside, see [here](https://github.com/checksumdev/velvet/blob/stable/docs/automatic-updates.md).
 
-2. **Other Launchers:** Download the latest `.mrpack` (Modrinth) or `.zip` (CurseForge) from the [latest release](https://github.com/checksumdev/velvet/releases/latest) and import it into your launcher of choice.
+2. **Other Launchers:** Download the latest `velvet_Modrinth_XXXXXXX.mrpack` (Modrinth) or `velvet_Curseforge_XXXXXXX.zip` (CurseForge) from the [latest release](https://github.com/checksumdev/velvet/releases/latest) and import it into your launcher of choice.
 
-3. **Nightly Builds:** If you're feeling adventurous, you can try out the latest changes by downloading the latest `.mrpack` or `.zip` from the [latest CI build](https://github.com/checksumdev/velvet/actions/workflows/build.yml).
+3. **Nightly Builds:** If you're feeling adventurous, you can try out the latest changes by downloading the latest `velvet.Modrinth_XXXXXXX.zip`, `velvet_Curseforge_XXXXXXX.zip` or `velvet_PrismLauncher_XXXXXXX.zip` from the [latest CI build / Pre-release](https://github.com/checksumdev/velvet/releases).
 
 ## License 📜
 
