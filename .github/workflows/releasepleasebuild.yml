@@ -175,3 +175,4 @@ jobs:
                                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                           run: gh release upload ${{ steps.release.outputs.tag_name }} ./${{env.REPO_NAME}}_PrismLauncher_${{env.COMMIT_ID}}.zip
                         - run:     cd ../packwiz-fix/${{env.REPO_NAME}} && ls && git push origin HEAD:release-please--branches--main
+                          if: ${{ steps.release.outputs.release_created }}
