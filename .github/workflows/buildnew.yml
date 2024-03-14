@@ -6,6 +6,7 @@ on:
                 branches:
                         - stable
                         - main
+                        - help
 env:
         prismInstanceFolderName: prismInstance
         prismInstanceName: Velvet Modpack Prism
