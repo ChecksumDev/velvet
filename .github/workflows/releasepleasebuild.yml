@@ -5,9 +5,10 @@ on:
         push:
                 branches:
                         - release-please
-                        #- stable
-                        #- main
+                        - stable
+                        - main
 env:
+        commitUsername: lilysoftpaw
         prismInstanceFolderName: prismInstance
         prismInstanceName: Velvet Modpack Prism
         prismInstanceAuthors: Checksum [ChecksumDev / chksmd / chksm] \(Modpack \& Packwiz\) \& Lilysoftpaw \(Github Actions Update\)
@@ -17,18 +18,38 @@ jobs:
         build:
                 runs-on: ubuntu-latest
                 steps:
+                        
+                        - uses: actions/checkout@v4
+
+                        - name: Get packwiz pack current Verison
+                          run: echo "packWizCurrVersion=$(head -n 3 pack.toml)" >> $GITHUB_ENV
+
                         - name: Github Release with release Please
                           uses: google-github-actions/release-please-action@v4
                           id: release
                           with:
                                   release-type: simple
-                        - uses: actions/checkout@v4
-
+                        - name: Get Repo Name
+                          run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+                        
                         - name: Get COMMIT_ID id
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
 
-                        - name: Get Repo Name
-                          run: echo "REPO_NAME=${{ github.event.repository.name }}" >> $GITHUB_ENV
+                        - name: Update Packwiz pack version
+                          uses: jacobtomlinson/gha-find-replace@v2
+                          with:
+                                  find: ${{env.packWizCurrVersion}}
+                                  replace: "version = ${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}"
+                                  regex: false
+                                  include: "pack.toml"
+                        - name: Commit new Packwiz pack version
+                          run: |
+                            git config --global user.name '${{ env.commitUsername }}'
+                            git config --global user.email '${{ env.commitUsername }}@users.noreply.github.com'
+                            git remote set-url origin https://x-access-token:${{ secrets.RELEASE_PLEASE_PAT }}@github.com/${{ github.repository }}
+                            git commit -am "Update Packwiz Version"
+                            git push origin release-please--branches--main:main
+                        
 
                         - name: Create Packwiz Pack URL for Prism Self Updating Instance
                           run: echo "PACKWIZ_URL=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/pack.toml" >> $GITHUB_ENV
