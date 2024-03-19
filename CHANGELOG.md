@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.12](https://github.com/lilysoftpaw/velvet/compare/v1.1.11...v1.1.12) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] OH MY GOD IT FAILED AGAIN ([f34010d](https://github.com/lilysoftpaw/velvet/commit/f34010d76f31c0241705dd95becc6fb72645738a))
+
 ## [1.1.11](https://github.com/lilysoftpaw/velvet/compare/v1.1.10...v1.1.11) (2024-03-19)
 
 
