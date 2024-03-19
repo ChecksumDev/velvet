@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.14](https://github.com/lilysoftpaw/velvet/compare/v1.1.13...v1.1.14) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] Please sed work i swear please work ([5b08e6a](https://github.com/lilysoftpaw/velvet/commit/5b08e6adffeafa17414b306ca397664e646b25d4))
+
 ## [1.1.13](https://github.com/lilysoftpaw/velvet/compare/v1.1.12...v1.1.13) (2024-03-19)
 
 
