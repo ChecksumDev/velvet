@@ -21,18 +21,28 @@ cd ../packwiz-fix
 echo Cloning and going into
 echo LS \| $(ls)
 echo PWD \| $(pwd)
-echo CLONE \| $(git clone https://github.com/$3 )
-echo CD \| $(cd ../packwiz-fix/$1 )
+echo CLONE \| $()
+git clone https://github.com/$3 
+echo CD \| $()
+cd ../packwiz-fix/$1 
+echo LS \| $(ls)
+echo PWD \| $(pwd)
 echo More git config
 echo LS \| $(ls)
 echo PWD \| $(pwd)
-echo GIT REMOTE \| $(git remote set-url origin https://x-access-token:$2@github.com/$3 )
-echo GIT PULL \| $(git pull origin release-please--branches--main )
-echo GIT BRANCH  \| $(git branch release-please--branches--main )
+echo GIT REMOTE \| $()
+git remote set-url origin https://x-access-token:$2@github.com/$3 
+echo GIT PULL \| $( )
+git pull origin release-please--branches--main
+echo GIT BRANCH  \| $( )
+git branch release-please--branches--main
 echo editing file
 echo LS  \| $(ls)
 echo PWD  \| $(pwd)
-echo SED \| $(sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml )
+echo CAT  \| $(cat pack.toml)
+echo SED \| $( )
+sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml
+echo CAT \| $(cat pack.toml)
 echo Adding file
 echo LS  \| $(ls)
 echo PWD \| $(pwd)
