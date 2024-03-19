@@ -12,24 +12,30 @@ git config --global user.name '$5'
 git config --global user.email '$5@users.noreply.github.com'
 git config --global pull.rebase false  # merge
 echo Making directory and going into
-echo $(ls)
-mkdir ../packwiz-fix
-cd ../packwiz-fix
+echo LS \| $(ls)
+echo PWD \| $(pwd)
+echo MKDIR \| $(mkdir ../packwiz-fix )
+echo CD \| $(cd ../packwiz-fix )
 echo Cloning and going into
-echo $(ls)
-git clone https://github.com/$3
-cd ../packwiz-fix/$1
+echo LS \| $(ls)
+echo PWD \| $(pwd)
+echo CLONE \| $(git clone https://github.com/$3 )
+echo CD \| $(cd ../packwiz-fix/$1 )
 echo More git config
-echo $(ls)
-git remote set-url origin https://x-access-token:$2@github.com/$3
-git pull origin release-please--branches--main 
-git branch release-please--branches--main
+echo LS \| $(ls)
+echo PWD \| $(pwd)
+echo GIT REMOTE \| $(git remote set-url origin https://x-access-token:$2@github.com/$3 )
+echo GIT PULL \| $(git pull origin release-please--branches--main )
+echo GIT BRANCH  \| $(git branch release-please--branches--main )
 echo editing file
-echo $(ls)
-sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml
+echo LS  \| $(ls)
+echo PWD  \| $(pwd)
+echo SED \| $(sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml )
 echo Adding file
-echo $(ls)
-git add pack.toml
+echo LS  \| $(ls)
+echo PWD \| $(pwd)
+echo GIT ADD  \| $(git add pack.toml)
 echo Commiting file
-echo $(ls)
-git commit -m "Update Packwiz Version"
+echo LS \| $(ls)
+echo PWD  \| $(pwd)
+echo GIT COMMIT  \| $(git commit -m "Update Packwiz Version" )
