@@ -41,8 +41,8 @@ echo LS  \| $(ls)
 echo PWD  \| $(pwd)
 echo CAT  \| $(cat pack.toml)
 echo SED \| $( )
-echo SED \| sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml
-sed -i 's/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g' pack.toml
+echo SED \| sed -i s/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g pack.toml
+sed -i s/$(head -n 3 pack.toml | tail -n 1)/version = "$4"/g pack.toml
 echo CAT \| $(cat pack.toml)
 echo Adding file
 echo LS  \| $(ls)
