@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/lilysoftpaw/velvet/compare/v1.1.5...v1.1.6) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] build failed, so im trying this instead ([657a855](https://github.com/lilysoftpaw/velvet/commit/657a855c7200764203a52b2464fc16f6e2ece247))
+
 ## [1.1.5](https://github.com/lilysoftpaw/velvet/compare/v1.1.4...v1.1.5) (2024-03-19)
 
 
