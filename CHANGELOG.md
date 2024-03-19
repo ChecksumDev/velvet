@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/lilysoftpaw/velvet/compare/v1.1.8...v1.1.9) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV Stuff] adding some logging because im getting tired of seeing nothing ([6bd9783](https://github.com/lilysoftpaw/velvet/commit/6bd97834a2467b76385c0ee3e92a8cdf5287b9e7))
+
 ## [1.1.8](https://github.com/lilysoftpaw/velvet/compare/v1.1.7...v1.1.8) (2024-03-19)
 
 
