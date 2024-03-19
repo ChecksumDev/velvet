@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.10](https://github.com/lilysoftpaw/velvet/compare/v1.1.9...v1.1.10) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] WAY MORE LOGGING ([04feb2b](https://github.com/lilysoftpaw/velvet/commit/04feb2b0578d8e6491d0771d9ed9509bf9d9dfe5))
+
 ## [1.1.9](https://github.com/lilysoftpaw/velvet/compare/v1.1.8...v1.1.9) (2024-03-19)
 
 
