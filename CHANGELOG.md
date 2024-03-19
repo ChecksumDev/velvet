@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.11](https://github.com/lilysoftpaw/velvet/compare/v1.1.10...v1.1.11) (2024-03-19)
+
+
+### Bug Fixes
+
+* More testing omfg ([dd267b6](https://github.com/lilysoftpaw/velvet/commit/dd267b6ddb39b14e57e955c57932ce2ea8272103))
+
 ## [1.1.10](https://github.com/lilysoftpaw/velvet/compare/v1.1.9...v1.1.10) (2024-03-19)
 
 
