@@ -14,8 +14,10 @@ git config --global pull.rebase false  # merge
 echo Making directory and going into
 echo LS \| $(ls)
 echo PWD \| $(pwd)
-echo MKDIR \| $(mkdir ../packwiz-fix )
-echo CD \| $(cd ../packwiz-fix )
+echo MKDIR \| $( )
+mkdir ../packwiz-fix
+echo CD \| $()
+cd ../packwiz-fix 
 echo Cloning and going into
 echo LS \| $(ls)
 echo PWD \| $(pwd)
