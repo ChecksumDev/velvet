@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/lilysoftpaw/velvet/compare/v1.1.4...v1.1.5) (2024-03-19)
+
+
+### Bug Fixes
+
+* update all mods ([ab0ae70](https://github.com/lilysoftpaw/velvet/commit/ab0ae70bbbde866cd5c55581a8015dc0c72769fd))
+
 ## [1.1.4](https://github.com/lilysoftpaw/velvet/compare/v1.1.3...v1.1.4) (2024-03-14)
 
 
