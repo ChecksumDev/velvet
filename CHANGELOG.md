@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.16](https://github.com/lilysoftpaw/velvet/compare/v1.1.15...v1.1.16) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] Replace SED with AWK ([5b2a9ec](https://github.com/lilysoftpaw/velvet/commit/5b2a9ecd23f735722b47e75b21741a8cb3d2ffc9))
+
 ## [1.1.15](https://github.com/lilysoftpaw/velvet/compare/v1.1.14...v1.1.15) (2024-03-19)
 
 
