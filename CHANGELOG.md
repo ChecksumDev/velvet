@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/lilysoftpaw/velvet/compare/v1.1.7...v1.1.8) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV Stuff] fixes because im a bit dumb ([488525b](https://github.com/lilysoftpaw/velvet/commit/488525b3ef5e3b66124c51c823d1892726768286))
+
 ## [1.1.7](https://github.com/lilysoftpaw/velvet/compare/v1.1.6...v1.1.7) (2024-03-19)
 
 
