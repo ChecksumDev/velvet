@@ -38,7 +38,7 @@ jobs:
                           run: echo 'COMMIT_ID='$(git rev-parse --short "$GITHUB_SHA") >> "$GITHUB_ENV"
                         - name: Run update packwiz version script
                           if: ${{ steps.release.outputs.release_created }}
-                          run: bash .github/releaseplease-updatePackwizversion.sh
+                          run: bash .github/releaseplease-updatePackwizversion.sh  '${{env.REPO_NAME}}' '${{ secrets.RELEASE_PLEASE_PAT }}' '${{ github.repository }}' '${{env.packWizCurrVersion}}' '${{steps.release.outputs.major }}.${{steps.release.outputs.minor }}.${{steps.release.outputs.patch }}' '${{ env.commitUsername }}'
 
                         - name: Update Packwiz pack version (Again, for Release building)
                           uses: jacobtomlinson/gha-find-replace@v2
