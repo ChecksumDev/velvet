@@ -1,3 +1,6 @@
 *.md
 docs/
 .github/
+prismInstance/
+icon.png
+release-please-config.json
