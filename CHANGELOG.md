@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.18](https://github.com/lilysoftpaw/velvet/compare/v1.1.17...v1.1.18) (2024-03-19)
+
+
+### Bug Fixes
+
+* [Dev Stuff] Remove useless logging ([927424b](https://github.com/lilysoftpaw/velvet/commit/927424bc4f15bd7002d47c692641bc4141bf03c5))
+
 ## [1.1.17](https://github.com/lilysoftpaw/velvet/compare/v1.1.16...v1.1.17) (2024-03-19)
 
 
