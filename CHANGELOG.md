@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/lilysoftpaw/velvet/compare/v1.1.6...v1.1.7) (2024-03-19)
+
+
+### Bug Fixes
+
+* [DEV STUFF] forgot to add the arguments ([e6e5c79](https://github.com/lilysoftpaw/velvet/commit/e6e5c7912b7c3987070493e4fd9ebd6a297c2885))
+
 ## [1.1.6](https://github.com/lilysoftpaw/velvet/compare/v1.1.5...v1.1.6) (2024-03-19)
 
 
