@@ -38,4 +38,4 @@ jobs:
           branch: packwiz
           base: main
           labels: "packwiz"
-          reviewers: "checksumdev"
+          reviewers: "${{ github.event.pusher.name }}"
