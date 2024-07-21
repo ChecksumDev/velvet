@@ -59,23 +59,23 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y zip
-          zip -qq -r $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_PrismLauncher_${{ env.COMMIT_ID }}.zip . -i "*.*" -i ".minecraft/*.*"
+          zip -qq -r velvet_PrismLauncher_${{ env.COMMIT_ID }}.zip . -i "*.*" -i ".minecraft/*.*"
         working-directory: ${{ env.prismInstanceFolderName }}
 
       - name: Build for Modrinth
-        run: packwiz modrinth export --output $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_Modrinth_${{ env.COMMIT_ID }}.mrpack
+        run: packwiz modrinth export --output velvet_Modrinth_${{ env.COMMIT_ID }}.mrpack
 
       - name: Build for CurseForge
-        run: packwiz curseforge export --output $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_Curseforge_${{ env.COMMIT_ID }}.zip
+        run: packwiz curseforge export --output velvet_Curseforge_${{ env.COMMIT_ID }}.zip
 
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: build-artifacts
           path: |
-            $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_PrismLauncher_${{ env.COMMIT_ID }}.zip
-            $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_Modrinth_${{ env.COMMIT_ID }}.mrpack
-            $GITHUB_WORKSPACE/${{ env.REPO_NAME }}_Curseforge_${{ env.COMMIT_ID }}.zip
+            velvet_PrismLauncher_${{ env.COMMIT_ID }}.zip
+            velvet_Modrinth_${{ env.COMMIT_ID }}.mrpack
+            velvet_Curseforge_${{ env.COMMIT_ID }}.zip
 
   release:
     runs-on: ubuntu-latest
