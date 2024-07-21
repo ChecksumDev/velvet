@@ -29,7 +29,6 @@ jobs:
           echo "COMMIT_ID=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
           echo "PACKWIZ_URL=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/pack.toml" >> $GITHUB_ENV
           echo "packWizCurrVersion=$(head -n 3 pack.toml | tail -n 1)" >> $GITHUB_ENV
-
       - name: Setup Go and Install Packwiz
         uses: actions/setup-go@v5
         with:
@@ -40,15 +39,19 @@ jobs:
         run: |
           mkdir -p ${{ env.prismInstanceFolderName }}/.minecraft
           curl -L -o ${{ env.prismInstanceFolderName }}/.minecraft/packwiz-installer-bootstrap.jar ${{ env.packwizInstallerBootstrapDownloadUrl }}
-
       - name: Update Prism Instance Config
         uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find-replace: |
-            FILLIN_MODPACK_NAME ${{ env.prismInstanceName }}
-            FILLIN_MODPACK_EXPORT_NAME ${{ env.prismInstanceName }}
-            FILLIN_MODPACK_AUTHORS ${{ env.prismInstanceAuthors }}
-            FILLIN_PACKWIZ_URL ${{ env.PACKWIZ_URL }}
+          find: |
+            FILLIN_MODPACK_NAME
+            FILLIN_MODPACK_EXPORT_NAME
+            FILLIN_MODPACK_AUTHORS
+            FILLIN_PACKWIZ_URL
+          replace: |
+            ${{ env.prismInstanceName }}
+            ${{ env.prismInstanceName }}
+            ${{ env.prismInstanceAuthors }}
+            ${{ env.PACKWIZ_URL }}
           regex: false
           include: ${{ env.prismInstanceFolderName }}/instance.cfg
 
@@ -73,7 +76,6 @@ jobs:
             ../${{ env.REPO_NAME }}_PrismLauncher_${{ env.COMMIT_ID }}.zip
             ${{ env.REPO_NAME }}_Modrinth_${{ env.COMMIT_ID }}.mrpack
             ${{ env.REPO_NAME }}_Curseforge_${{ env.COMMIT_ID }}.zip
-
   release:
     runs-on: ubuntu-latest
     needs: build
