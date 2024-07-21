@@ -33,7 +33,7 @@ jobs:
       - name: Setup Go and Install Packwiz
         uses: actions/setup-go@v5
         with:
-          go-version: '1.16'
+          go-version: '1.18'
       - run: go install github.com/packwiz/packwiz@latest
 
       - name: Download packwiz bootstrap
