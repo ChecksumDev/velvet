@@ -1,13 +1,13 @@
 name = "Citadel"
-filename = "citadel-2.5.4-1.20.1.jar"
+filename = "citadel-2.5.6-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jJfV67b1/versions/ssXkoBKk/citadel-2.5.4-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/jJfV67b1/versions/lAATACbp/citadel-2.5.6-1.20.1.jar"
 hash-format = "sha1"
-hash = "e7f209ae09cf818ecf98698482b82a1cbe0fe058"
+hash = "617da008667b182a112ad2a3607e6641593a8f5f"
 
 [update]
 [update.modrinth]
 mod-id = "jJfV67b1"
-version = "ssXkoBKk"
+version = "lAATACbp"

@@ -1,13 +1,13 @@
 name = "Mystical Agriculture"
-filename = "MysticalAgriculture-1.20.1-7.0.10.jar"
+filename = "MysticalAgriculture-1.20.1-7.0.12.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/C95ReXie/versions/cRMgDSq5/MysticalAgriculture-1.20.1-7.0.10.jar"
+url = "https://cdn.modrinth.com/data/C95ReXie/versions/H8jzayfW/MysticalAgriculture-1.20.1-7.0.12.jar"
 hash-format = "sha1"
-hash = "ab4631365a0d5983ac9cc575653bdc5338a248f0"
+hash = "fc7cb30314fab2c79bbedec36afb27ff5cf5c36b"
 
 [update]
 [update.modrinth]
 mod-id = "C95ReXie"
-version = "cRMgDSq5"
+version = "H8jzayfW"

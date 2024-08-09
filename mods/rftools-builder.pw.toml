@@ -1,13 +1,13 @@
 name = "RFTools Builder"
-filename = "rftoolsbuilder-1.20-6.0.4.jar"
+filename = "rftoolsbuilder-1.20-6.0.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0IclJLr/versions/8mIUaono/rftoolsbuilder-1.20-6.0.4.jar"
+url = "https://cdn.modrinth.com/data/e0IclJLr/versions/1TsVpRht/rftoolsbuilder-1.20-6.0.5.jar"
 hash-format = "sha1"
-hash = "da893d305f63e094c4884b1003268a5de4b9e35a"
+hash = "9278352b3ca08b6110e423b21b781a55daa82684"
 
 [update]
 [update.modrinth]
 mod-id = "e0IclJLr"
-version = "8mIUaono"
+version = "1TsVpRht"
