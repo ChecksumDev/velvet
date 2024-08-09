@@ -1,13 +1,13 @@
 name = "Xaero's World Map"
-filename = "XaerosWorldMap_1.38.1_Forge_1.20.jar"
+filename = "XaerosWorldMap_1.38.8_Forge_1.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NcUtCpym/versions/O8WpvCPU/XaerosWorldMap_1.38.1_Forge_1.20.jar"
+url = "https://cdn.modrinth.com/data/NcUtCpym/versions/3t3qLyne/XaerosWorldMap_1.38.8_Forge_1.20.jar"
 hash-format = "sha1"
-hash = "bbe64fd565ec7934ebe70ec7f8a8a17134a0f981"
+hash = "a7e0a8a5fc1e31bfff5fb733c51b361ffb1fb5da"
 
 [update]
 [update.modrinth]
 mod-id = "NcUtCpym"
-version = "O8WpvCPU"
+version = "3t3qLyne"

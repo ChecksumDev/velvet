@@ -1,13 +1,13 @@
 name = "Mystical Agradditions"
-filename = "MysticalAgradditions-1.20.1-7.0.2.jar"
+filename = "MysticalAgradditions-1.20.1-7.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pl0jGXIx/versions/84hPkqRh/MysticalAgradditions-1.20.1-7.0.2.jar"
+url = "https://cdn.modrinth.com/data/pl0jGXIx/versions/BGS3vPEg/MysticalAgradditions-1.20.1-7.0.3.jar"
 hash-format = "sha1"
-hash = "16dd66fc603cabb0f7ba8f6606e05d4ebb83a438"
+hash = "9e6cc339e6bb3e9646f7617eeb1208e519ad7f6d"
 
 [update]
 [update.modrinth]
 mod-id = "pl0jGXIx"
-version = "84hPkqRh"
+version = "BGS3vPEg"

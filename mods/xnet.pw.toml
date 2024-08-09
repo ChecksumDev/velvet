@@ -1,13 +1,13 @@
 name = "XNet"
-filename = "xnet-1.20-6.0.2.jar"
+filename = "xnet-1.20-6.1.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iu1jkWqa/versions/v7egKLKS/xnet-1.20-6.0.2.jar"
+url = "https://cdn.modrinth.com/data/iu1jkWqa/versions/UbcA1x5T/xnet-1.20-6.1.4.jar"
 hash-format = "sha1"
-hash = "b7da5815815cfa0d1090a7436f61c2207496c107"
+hash = "a5b32571a95e0373c4570cf2a3eeb057cb23c8d0"
 
 [update]
 [update.modrinth]
 mod-id = "iu1jkWqa"
-version = "v7egKLKS"
+version = "UbcA1x5T"
