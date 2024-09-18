@@ -472,6 +472,11 @@ hash = "ee8e026f46f06f68fa61abfd0e50b195c3348c8ecbbcac8eeb8fc7a05c1219ba"
 metafile = true
 
 [[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "3aa75e307989c0a66a0658b5c6776e8d664d73f55a99e5ff30ef24d4d2918619"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
 metafile = true
@@ -499,11 +504,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "4dace981d44532605ef2f3c9b7d213604232fb8712dfc26275750cd2ac731c57"
-metafile = true
-
-[[files]]
-file = "mods/just-zoom.pw.toml"
-hash = "e60b6bd62c31028a2555f06f5324004683d59d5dbee0697940075d9c89f7c6ea"
 metafile = true
 
 [[files]]
@@ -869,6 +869,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "614d4145b4c8ce726c8f950dd15a86ccc847157d8fc22e92ae34c40dcc68ba13"
+metafile = true
+
+[[files]]
+file = "mods/wi-zoom.pw.toml"
+hash = "bbec88a5550466b7303b26f32ac82e471474697b590980822b06c6967d418d15"
 metafile = true
 
 [[files]]
