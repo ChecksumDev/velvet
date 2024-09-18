@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/Vz96hXMh/versions/CJKpdSjT/highlight-forge-1.20-2.0.1.jar"
-hash-format = "sha1"
-hash = "f0cbbdf1b0510cfbc38453d4fd411b8a915e3457"
+hash-format = "sha512"
+hash = "3a4a5459d3df8da1c49f61a78863f9414b6ac2e4fd9d61fdb28dca4300c750131088a8dafd189db3ef9b84a35ee56dbea3b325fb1f3d994b840873eb780e1f15"
 
 [update]
 [update.modrinth]

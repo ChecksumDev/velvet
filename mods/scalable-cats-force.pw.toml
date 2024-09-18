@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/zr0QMQMo/versions/1qV9Ew3X/ScalableCatsForce-3.3.1-build-0-with-library.jar"
-hash-format = "sha1"
-hash = "28154aba31d9165b801aa7800aa758263a23e48f"
+hash-format = "sha512"
+hash = "e1804cbc111c5ae81a80c808b0ae4db43fdaecf1425fb6070cc26f46426523f77fab4819d3c95f51ec2f03f4a3e52d9645fb45e772b10b1012c72661ef65f401"
 
 [update]
 [update.modrinth]

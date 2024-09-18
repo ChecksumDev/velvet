@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Fb4jn8m6/versions/NrtzFkZE/FallingTree-1.20.1-4.3.4.jar"
-hash-format = "sha1"
-hash = "617b79628fca3968979c1cc5f42edda882a55adb"
+hash-format = "sha512"
+hash = "487cd36886cb791a3f252c90818d5c1cedeec5080a7f874b0bfafff328c8fcc9b2acee03fe40f8397355e8a2a092d2f34cb40671c786c0d9d035728c971d4e9c"
 
 [update]
 [update.modrinth]

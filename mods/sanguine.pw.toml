@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/zliP2NTL/versions/zcNJuqFP/sanguine-0.4.0.jar"
-hash-format = "sha1"
-hash = "ad52cd6a896c9f1f2e80dd55eb3bf28f3f80d097"
+hash-format = "sha512"
+hash = "a541170f99909ee48053d2f08e19d774ec98192be39fd9aedb4c8bab5bde2a7812f1a4dd97e475448a5565cd837117f576a92ae3a8dcb5ec325a28b16fce6451"
 
 [update]
 [update.modrinth]

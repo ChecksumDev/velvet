@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/e0bNACJD/versions/gvqNV855/SereneSeasons-1.20.1-9.0.0.46.jar"
-hash-format = "sha1"
-hash = "9d30811b601f12282b7243931df7aa37ea380693"
+hash-format = "sha512"
+hash = "a6e927e9cf5be1773d269ec92eadadca7bf3e7a7804a0b392de9ce94ec2f6b70080ac087470ee46df7db1700547879737a4a0e2f3719d39005f6c20b20ff92e7"
 
 [update]
 [update.modrinth]

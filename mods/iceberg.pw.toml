@@ -1,0 +1,13 @@
+name = "Iceberg"
+filename = "Iceberg-1.20.1-forge-1.1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5faXoLqX/versions/boNnPeth/Iceberg-1.20.1-forge-1.1.21.jar"
+hash-format = "sha512"
+hash = "c1ff313558583049648e5612d9698bd1f4a506ccd26e2085d74dd6931d17603d1859a23b23cd8823cbc184564bcb214e0dc344f1df9f3f8da1f2d228597f32af"
+
+[update]
+[update.modrinth]
+mod-id = "5faXoLqX"
+version = "boNnPeth"

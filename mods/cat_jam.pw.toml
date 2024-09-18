@@ -1,0 +1,13 @@
+name = "cat_jam"
+filename = "cat_jam-forge-mc1.20-1.2.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/x3s69afN/versions/E6a9Pli4/cat_jam-forge-mc1.20-1.2.2.jar"
+hash-format = "sha512"
+hash = "0cb498a3ad5f1137754eee5d3f220b016d1a48bd27a3ccd7fd3f2861c1e4e21c10e8362056ea5154dc3155dccd2356fd2e4c84b17e2cc8e4c32687912c0bf9a7"
+
+[update]
+[update.modrinth]
+mod-id = "x3s69afN"
+version = "E6a9Pli4"
