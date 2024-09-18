@@ -392,11 +392,6 @@ hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
 metafile = true
 
 [[files]]
-file = "mods/exordium.pw.toml"
-hash = "8108d70d105129e0ffb80090eade74fae9c8d5e3c3798f21e5cd86422d43e757"
-metafile = true
-
-[[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "8528e7ab67d1d3121cd08ec609e251992f16edebd5b919321f877f551497f9cb"
 metafile = true
