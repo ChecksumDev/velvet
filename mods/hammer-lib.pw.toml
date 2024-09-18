@@ -1,13 +1,13 @@
 name = "HammerLib"
-filename = "HammerLib-1.20.1-20.1.12.jar"
+filename = "HammerLib-1.20.1-20.1.29.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PlkSuVtM/versions/iSU3Dxqh/HammerLib-1.20.1-20.1.12.jar"
-hash-format = "sha1"
-hash = "863fae548f3ef4e275f74db688efa1875eb58db9"
+url = "https://cdn.modrinth.com/data/PlkSuVtM/versions/mrkG631Q/HammerLib-1.20.1-20.1.29.jar"
+hash-format = "sha512"
+hash = "759b3cfce86710d609a9d2dbc9c97955378a03125ee6da14d0e3b9e23b463c3c195b24d79b8077a6d0a3755fb58f596b3871870d11a73a9a21636cb38af2be6f"
 
 [update]
 [update.modrinth]
 mod-id = "PlkSuVtM"
-version = "iSU3Dxqh"
+version = "mrkG631Q"

@@ -1,13 +1,13 @@
 name = "More Mobs"
-filename = "more_mobs-v1.5.1-mc1.14x-1.20x-mod.jar"
+filename = "more_mobs-v1.5.2-mc1.14x-1.21x-mod.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HJR6V0I2/versions/Nzg4LYoh/more_mobs-v1.5.1-mc1.14x-1.20x-mod.jar"
-hash-format = "sha1"
-hash = "9a8417e6fc2ebff566ed38a73e20382237e0f09f"
+url = "https://cdn.modrinth.com/data/HJR6V0I2/versions/1RMi2zHD/more_mobs-v1.5.2-mc1.14x-1.21x-mod.jar"
+hash-format = "sha512"
+hash = "7800ef1d3b58a907cc25accf2d9342763a4a4abd15f0b7b3a7854f0bf0115f45ff136b2277360553e845b9a61cf02564e2a97033596a8bba9f802ce3ebaa981c"
 
 [update]
 [update.modrinth]
 mod-id = "HJR6V0I2"
-version = "Nzg4LYoh"
+version = "1RMi2zHD"

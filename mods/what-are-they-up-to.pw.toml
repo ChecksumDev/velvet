@@ -1,13 +1,13 @@
 name = "What Are They Up To (Watut)"
-filename = "watut-forge-1.20.1-1.1.0.jar"
+filename = "watut-forge-1.20.1-1.1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtB5mHky/versions/hWXONXV4/watut-forge-1.20.1-1.1.0.jar"
-hash-format = "sha1"
-hash = "e30d6d492a59a35d6cf4c38c6301f90ba2abfba0"
+url = "https://cdn.modrinth.com/data/AtB5mHky/versions/Sp0NpaDe/watut-forge-1.20.1-1.1.3.jar"
+hash-format = "sha512"
+hash = "43ea1e4472f0963f768f0ddb1d8be523dc7e0fdc265029d3cc2b8df4a3d7a88ab7dcf1e053ee7813c40f97dd5dfe5afc6ad48276fb390b07a66b959b20488c25"
 
 [update]
 [update.modrinth]
 mod-id = "AtB5mHky"
-version = "hWXONXV4"
+version = "Sp0NpaDe"

@@ -1,13 +1,13 @@
 name = "Ding"
-filename = "Ding-1.20.1-Forge-1.4.1.jar"
+filename = "Ding-1.20.1-Forge-1.5.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UEtTD3gP/versions/ZvOp5eWG/Ding-1.20.1-Forge-1.4.1.jar"
-hash-format = "sha1"
-hash = "c46db36e9fc40865d54590c1a59ea71915e341a6"
+url = "https://cdn.modrinth.com/data/UEtTD3gP/versions/nRsfFBuc/Ding-1.20.1-Forge-1.5.0.jar"
+hash-format = "sha512"
+hash = "dd579ba235a2444d044f6b502d669ef43c5ed67c88737dd20c11dec6083469f488bb8a7318d8a9a0145bd33ced13d90547d928ecafd28d0c81fca48c12a49286"
 
 [update]
 [update.modrinth]
 mod-id = "UEtTD3gP"
-version = "ZvOp5eWG"
+version = "nRsfFBuc"
