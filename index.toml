@@ -268,7 +268,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "a90a3de89a8046dfc993831b78eb51b0cfae288d5b65b4e988a0e4a35249ef83"
+hash = "f5b52bf82346eb58dc03b5fd36a538f78ff7f04d2dff59338c239cb99098a442"
 metafile = true
 
 [[files]]
@@ -498,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fdbaae2a686bd0826e1e2d9a0e655cd5959e0f1956c4480a9973428a6515c959"
+hash = "4dace981d44532605ef2f3c9b7d213604232fb8712dfc26275750cd2ac731c57"
 metafile = true
 
 [[files]]
@@ -624,11 +624,6 @@ metafile = true
 [[files]]
 file = "mods/notrample.pw.toml"
 hash = "f08e47a8b608a67794114836dcefe16e07c853ca4271c2fa8def9bd84b58020e"
-metafile = true
-
-[[files]]
-file = "mods/nyctophobia-dread.pw.toml"
-hash = "e28e2a6da9457c802b26ccf43476e15536cba58ff76bb808457ef22a73701fb9"
 metafile = true
 
 [[files]]
