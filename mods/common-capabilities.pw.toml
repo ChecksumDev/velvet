@@ -1,13 +1,13 @@
 name = "Common Capabilities"
-filename = "CommonCapabilities-1.20.1-2.9.1.jar"
+filename = "CommonCapabilities-1.20.1-2.9.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oFXrCkDI/versions/BTl7Q7EH/CommonCapabilities-1.20.1-2.9.1.jar"
-hash-format = "sha1"
-hash = "65e81a705b0c42bd12c43cd6de3596a1022e3474"
+url = "https://cdn.modrinth.com/data/oFXrCkDI/versions/Dd40mSpD/CommonCapabilities-1.20.1-2.9.3.jar"
+hash-format = "sha512"
+hash = "cc586beaacff0f86ccc9f7a83757b3189b31d9cea4e94f969b7c9835cfde0a6dc0c108034053ebb78f4820fb10964601ec8156192da48c22113c3e491d10c41b"
 
 [update]
 [update.modrinth]
 mod-id = "oFXrCkDI"
-version = "BTl7Q7EH"
+version = "Dd40mSpD"

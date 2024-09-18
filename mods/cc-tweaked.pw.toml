@@ -1,13 +1,13 @@
 name = "CC: Tweaked"
-filename = "cc-tweaked-1.20.1-forge-1.109.6.jar"
+filename = "cc-tweaked-1.20.1-forge-1.113.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/8hOJX080/cc-tweaked-1.20.1-forge-1.109.6.jar"
-hash-format = "sha1"
-hash = "4757682bb14f0f68694d0b2162d7e77dd5065ecf"
+url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/a457666C/cc-tweaked-1.20.1-forge-1.113.1.jar"
+hash-format = "sha512"
+hash = "d82e78dc579c5a30fc98d48b48d6b6876d74c1146a2c91bf1f1f0aa34daebaad92f3a3a4f355f9c9f05affed1c5c904b8bc660269aee568634956e22a0a49d3d"
 
 [update]
 [update.modrinth]
 mod-id = "gu7yAYhd"
-version = "8hOJX080"
+version = "a457666C"

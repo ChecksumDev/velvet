@@ -1,13 +1,13 @@
 name = "Raised"
-filename = "raised-forge-1.20.1-3.1.3.jar"
+filename = "raised-forge-1.20.1-4.0.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nCQRBEiR/versions/rHORzYiO/raised-forge-1.20.1-3.1.3.jar"
-hash-format = "sha1"
-hash = "b8bfb049c7f4b5d8cca9739f78f42520ab119836"
+url = "https://cdn.modrinth.com/data/nCQRBEiR/versions/Q9gvujWU/raised-forge-1.20.1-4.0.0.jar"
+hash-format = "sha512"
+hash = "a7ed06817b86c3c2d03060c21053b9096e341f0aaa1a0000ca41d929f45e904e15f7c589932e836b3973e68f35eb973fd89df8e369ba819375f67e9177607ff3"
 
 [update]
 [update.modrinth]
 mod-id = "nCQRBEiR"
-version = "rHORzYiO"
+version = "Q9gvujWU"
