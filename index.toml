@@ -332,6 +332,11 @@ hash = "2fcea0bdf1c046a408cf5b2fb163a0cfbb826ba221a0fa1bec74e4df25b040ff"
 metafile = true
 
 [[files]]
+file = "mods/distant-friends.pw.toml"
+hash = "2b78ecde39b305b27e0f860e6bbee6afe754a81d727ce2cdb0cf65f4a2ab12f2"
+metafile = true
+
+[[files]]
 file = "mods/domestication-innovation.pw.toml"
 hash = "815edded2c6be145f2a82e48a4044955e4969a220d29d4290f395d38a6ff15e8"
 metafile = true
