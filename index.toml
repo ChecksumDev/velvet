@@ -477,11 +477,6 @@ hash = "3aa75e307989c0a66a0658b5c6776e8d664d73f55a99e5ff30ef24d4d2918619"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "1ef40993b8abff2b77e3f5f59874e6de0348e4c39f6b8e5561fa672a8b1c5c0b"
-metafile = true
-
-[[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "5dd0aacabf2785fce38296aaa7ca75652bc6ba13348625b67dad1a291dc13c5f"
 metafile = true
