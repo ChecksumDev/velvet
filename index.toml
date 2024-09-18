@@ -512,11 +512,6 @@ hash = "5e3c100e1c34cadd0e1fb662d87e74fb402fa442b50629588ad3bb2f4bd489b8"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "4dace981d44532605ef2f3c9b7d213604232fb8712dfc26275750cd2ac731c57"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "ed461d699dfadb76e5b38cf39d1eea7c35221db5587a35bf38499782b6f98160"
 metafile = true
