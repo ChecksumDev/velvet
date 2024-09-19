@@ -10236,11 +10236,6 @@ hash = "94ac09c4a85a46715ba3b5bae7af87dd6e63efede720c369014d42c1eb568c76"
 metafile = true
 
 [[files]]
-file = "mods/fast-ip-ping.pw.toml"
-hash = "7169de4b671834f4f1d9251b1e2949282e52d9ca9e2ddcbc1c9aa58148795ca7"
-metafile = true
-
-[[files]]
 file = "mods/fast-paintings.pw.toml"
 hash = "dc0d8e54793e901169ffe51e57e2c0e7ab0220ce92fc8ef141ba9dfe5ae12a6d"
 metafile = true
