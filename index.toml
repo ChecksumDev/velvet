@@ -263,7 +263,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
-hash = "26d6d3d5464ba52c687007f74e955c25d2fd16230a1fc9f89c4b5c84cf74d76c"
+hash = "71ab0d4666048827f35f9660934b97693938c989499a73cd45199eb2a359efb3"
 metafile = true
 
 [[files]]
@@ -344,11 +344,6 @@ metafile = true
 [[files]]
 file = "mods/ding.pw.toml"
 hash = "2fcea0bdf1c046a408cf5b2fb163a0cfbb826ba221a0fa1bec74e4df25b040ff"
-metafile = true
-
-[[files]]
-file = "mods/distant-friends.pw.toml"
-hash = "2b78ecde39b305b27e0f860e6bbee6afe754a81d727ce2cdb0cf65f4a2ab12f2"
 metafile = true
 
 [[files]]
@@ -462,6 +457,16 @@ hash = "7169de4b671834f4f1d9251b1e2949282e52d9ca9e2ddcbc1c9aa58148795ca7"
 metafile = true
 
 [[files]]
+file = "mods/fast-paintings.pw.toml"
+hash = "dc0d8e54793e901169ffe51e57e2c0e7ab0220ce92fc8ef141ba9dfe5ae12a6d"
+metafile = true
+
+[[files]]
+file = "mods/faster-random.pw.toml"
+hash = "9fc93a4e5f0c14cd01c2171ab9b74defb97d5d79498b644bdc74414e744c3198"
+metafile = true
+
+[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "932ddad36de5cc064fd285cff392872050de95e262029d336e99f44e0ce01d97"
 metafile = true
@@ -494,6 +499,11 @@ metafile = true
 [[files]]
 file = "mods/flux-networks.pw.toml"
 hash = "de63df967225278681e18afe0e323110322ec02006746980fbe77dbd974b20b3"
+metafile = true
+
+[[files]]
+file = "mods/from-the-fog.pw.toml"
+hash = "c2fb39a9d55078a3929cfee2b922b725704d0fdff4b24936b2c0d1500061885d"
 metafile = true
 
 [[files]]
@@ -613,7 +623,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
 metafile = true
 
 [[files]]
@@ -634,6 +644,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "885b3a412f67ae39c7cddd9fe878e82e055ebb9bc7246255987cceb66f336ab3"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "ef8ad203d666ead3be8535c8fdf39059c2faa9f4513cdd74d1698a4d4c5838f7"
 metafile = true
 
 [[files]]
@@ -867,6 +882,11 @@ hash = "4aa0fc092d42d7e3778efb6043ee73b376bf4f39c80c2225b72a960a50b2ebb1"
 metafile = true
 
 [[files]]
+file = "mods/smooth-boot-reloaded.pw.toml"
+hash = "daf32b14b2274f7aae1cfc76dabd879a4a7f249fa41d039afab48d1d038d6aed"
+metafile = true
+
+[[files]]
 file = "mods/snow-under-trees.pw.toml"
 hash = "31d75eef3e8b33299222bc8a833f573241b48ac7aad5f9db36e6ad33a3c2956b"
 metafile = true
@@ -944,6 +964,11 @@ metafile = true
 [[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "dd71658e81ba19df29dab280001929bcc14265500ea4e25c3ab425972b790594"
+metafile = true
+
+[[files]]
+file = "mods/vmp-forge.pw.toml"
+hash = "7c8f6815034c4c0b79ba28af01d8917bbb67debbe95517634b1f8b96dc524b16"
 metafile = true
 
 [[files]]
