@@ -1,0 +1,33 @@
+{
+	"function": "minecraft:sequence",
+	"functions": [
+		{
+			"function": "minecraft:set_custom_data",
+			"tag": "{armored_elytra:{armored:true}}"
+		},
+		{
+			"function": "minecraft:set_attributes",
+			"replace": false,
+			"modifiers": [
+				{
+					"name": "Armor",
+					"attribute": "minecraft:generic.armor",
+					"operation": "add_value",
+					"amount": 8.0,
+					"slot": "chest"
+				},
+				{
+					"name": "Armor Toughness",
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "add_value",
+					"amount": 2.0,
+					"slot": "chest"
+				}
+			]
+		},
+		{
+			"function": "minecraft:set_custom_model_data",
+			"value": 13522555
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:clock"
+		},
+		"title": "Real-time Clock           ",
+		"description": [
+			"",
+			{
+				"text": "Adds a trigger that allows you to view how long a world has been running in real time minutes and hours.\n",
+				"color": "gold"
+			},
+			{
+				"text": "Enter",
+				"color": "green"
+			},
+			{
+				"text": " ",
+				"color": "gold"
+			},
+			{
+				"text": "/trigger rc_help",
+				"color": "yellow"
+			},
+			{
+				"text": " for details.\n",
+				"color": "gold"
+			},
+			{
+				"text": "Enter",
+				"color": "green"
+			},
+			{
+				"text": " ",
+				"color": "gold"
+			},
+			{
+				"text": "/trigger rc_display",
+				"color": "yellow"
+			},
+			{
+				"text": " to view running time.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
