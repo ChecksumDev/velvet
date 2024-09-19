@@ -1,0 +1,8 @@
+{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"mode": "append",
+	"lore": [
+		["",{"text":"+ ","color":"gold","italic":false},{"entity":"@e[type=minecraft:item,tag=armored_elytra.chestplate,limit=1]","nbt":"Item.components.minecraft:custom_name","interpret":true,"color":"gold","italic":true}]
+	]
+}

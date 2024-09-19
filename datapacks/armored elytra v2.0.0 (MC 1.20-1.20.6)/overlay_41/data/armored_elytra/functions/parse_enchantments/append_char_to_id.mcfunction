@@ -1,0 +1,1 @@
+$data modify storage armored_elytra:storage id set value "$(id)$(char)"
