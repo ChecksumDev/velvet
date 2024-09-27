@@ -9977,7 +9977,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "35111eb72a59de732df056f5dd2db51de574ce8c7060fdca4da933b2ee276b87"
+hash = "adac5112deef8a756dc387b4f4936518f99dd879544fa34f59b2a74e930fd991"
 metafile = true
 
 [[files]]
@@ -10427,7 +10427,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "ef8ad203d666ead3be8535c8fdf39059c2faa9f4513cdd74d1698a4d4c5838f7"
+hash = "e212ed8829ceea81635a9f2be5834096941939d254c172488b23695e79bf7f49"
 metafile = true
 
 [[files]]
@@ -10498,11 +10498,6 @@ metafile = true
 [[files]]
 file = "mods/nyfs-spiders.pw.toml"
 hash = "acaf74883794f150634fbaf000e15098162610d2e1ef2d4029a64c7b0fe71e6e"
-metafile = true
-
-[[files]]
-file = "mods/oculus.pw.toml"
-hash = "2f8d1c3e8ff75a265ba6703a488c6fa7edc69cd9a01418ed1a6884e57a3e3ade"
 metafile = true
 
 [[files]]
