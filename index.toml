@@ -9991,6 +9991,11 @@ hash = "09bcd8e486ca21121c04fe1e5bc05c5dcb2225447355a6d4d4d8073d68c552d7"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
+metafile = true
+
+[[files]]
 file = "mods/citadel.pw.toml"
 hash = "05fdc598a3d7461f62d878ebe8d3d7fd714ca8bdeb93831e9f0e0876adfca01a"
 metafile = true
@@ -10182,7 +10187,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio.pw.toml"
-hash = "a1513ded2078e80a41c141948c4a5bc371ec74fb4d8317733f44989372c20b5f"
+hash = "c303b9f0291daa138c07397806e690cb1b6fdd207a7fa46af337d13efe9b4210"
 metafile = true
 
 [[files]]
@@ -10672,7 +10677,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "829bdac01469835bb337791cc91a7f2d20d5d7e409cf66328da8a014ac0c2efa"
+hash = "06362695ee08340ed2ac84f9d5d8cc216f731725e1c0b27f111a713cb4811de6"
 metafile = true
 
 [[files]]
@@ -10742,7 +10747,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "d29b5b1e687f5ae0fb9658c3bbd69b2747bec2e2065984b0f9c1cdc6ac8d0e24"
+hash = "5c0f3a1c63d6e5aaa3f1c5783a8a8c082fa32dcca49d03efe785613effa45a85"
 metafile = true
 
 [[files]]
