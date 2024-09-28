@@ -10171,11 +10171,6 @@ hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "983e6d4d488faca859e3abb13774b823d26a6b7a20d2dff13bfa4f3426cf5689"
-metafile = true
-
-[[files]]
 file = "mods/emoji-type.pw.toml"
 hash = "4abc98f79235cfc71b6012b0a457df7491c05ae473a67da7b769e7e21bd1d8f6"
 metafile = true
@@ -10348,6 +10343,26 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "5e3c100e1c34cadd0e1fb662d87e74fb402fa442b50629588ad3bb2f4bd489b8"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "a7688ab4cf2d5ce7bf15a8177ea0e984a94dd93bce02af7fa835216cc73a2fb9"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-professions-jep.pw.toml"
+hash = "051e68cdc04c210afa273cda7e109bea1f08380451593be022db86e6301dff36"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "d4d38b6d614e655d6ea78e3e9f8c13953fa23e9dbb1818fc9c40714bd77098d2"
 metafile = true
 
 [[files]]
