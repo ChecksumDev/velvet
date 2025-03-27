@@ -1,13 +1,13 @@
 name = "SecurityCraft"
-filename = "[1.20.1] SecurityCraft v1.9.10.jar"
+filename = "[1.20.1] SecurityCraft v1.9.12.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/v8jzRtAt/versions/RxDHVY3l/%5B1.20.1%5D%20SecurityCraft%20v1.9.10.jar"
+url = "https://cdn.modrinth.com/data/v8jzRtAt/versions/ctoXyPnp/%5B1.20.1%5D%20SecurityCraft%20v1.9.12.jar"
 hash-format = "sha512"
-hash = "12114325487625f1fa21209950c8d56713ebb8f43e3994097d1df3daaff43fecf51785912b49db9fc36e03ae333ad575eb0daa8526d983cc7c2a3435ab9cd407"
+hash = "8681bcf8866240697f042f1df1a8fd44f7bda40fb8fc874afcd0c6e7d95670cab1fbef9720f171b4bd6cc2cfaaf3a527b982054cdd849911ed5ea529f966527d"
 
 [update]
 [update.modrinth]
 mod-id = "v8jzRtAt"
-version = "RxDHVY3l"
+version = "ctoXyPnp"
