@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ChecksumDev/velvet/compare/v1.1.0...v1.1.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* update all mods ([dcbbd9b](https://github.com/ChecksumDev/velvet/commit/dcbbd9bb198d8c919f7325ae15f470af2bc413bf))
+
 ## [1.1.0](https://github.com/ChecksumDev/velvet/compare/v1.0.0...v1.1.0) (2024-09-18)
 
 
