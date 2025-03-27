@@ -3,11 +3,11 @@ filename = "ironchest-1.20.1-14.4.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/P3iIrPH3/versions/YjbOtYwN/ironchest-1.20.1-14.4.4.jar"
+hash-format = "sha512"
+hash = "5d41daa11bbc5c98c98faf6641993a47bce92c56204cec745686396e4f912b67abbc29f9fefcc5fd89422c37c3b34c191bfcc6479b28d7a07886cd279c0d6d99"
 
 [update]
-[update.curseforge]
-file-id = 4614852
-project-id = 228756
+[update.modrinth]
+mod-id = "P3iIrPH3"
+version = "YjbOtYwN"

@@ -1,0 +1,13 @@
+name = "Random Village Names"
+filename = "randomvillagenames-1.20.1-3.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N0ytbukx/versions/VPrbVme1/randomvillagenames-1.20.1-3.8.jar"
+hash-format = "sha512"
+hash = "fbf31fa3e91ca33b34b683019a3eb29e637730e85c54764675ac51ab90debe536fd8bd85a6d5040745ffc6787783b34f1e221497f328620e99303a4ebd0cc948"
+
+[update]
+[update.modrinth]
+mod-id = "N0ytbukx"
+version = "VPrbVme1"

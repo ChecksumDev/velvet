@@ -1,0 +1,13 @@
+name = "Blood Magic"
+filename = "bloodmagic-1.20.1-3.3.3-45.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PbNc6qBY/versions/KoL2JNWd/bloodmagic-1.20.1-3.3.3-45.jar"
+hash-format = "sha512"
+hash = "7ac041c400263d828f1c078ca6b7b9032ca4b9f187995824ff6b7f9f57b31129204cbf33edf1a679259672c22566e68849d3ab0d4d1600790d09d36dc013b931"
+
+[update]
+[update.modrinth]
+mod-id = "PbNc6qBY"
+version = "KoL2JNWd"

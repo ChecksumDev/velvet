@@ -1,0 +1,13 @@
+name = "Caves & Canyons"
+filename = "caves__canyons-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uMcyUgtO/versions/AovRyC6Z/caves__canyons-1.2.jar"
+hash-format = "sha512"
+hash = "6f73c7482cf3973ede05944d1942ac508f41d76ab2e0142378c66dfc4354fd9f825d80f36968d914f30fb76d16ec85464f739a6de9c8ad6783ac7829339a11d0"
+
+[update]
+[update.modrinth]
+mod-id = "uMcyUgtO"
+version = "AovRyC6Z"

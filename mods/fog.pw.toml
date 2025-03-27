@@ -1,0 +1,13 @@
+name = "Fog"
+filename = "Fog-forge-1.5.3-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WuGVWUF2/versions/5Lmz97Q7/Fog-forge-1.5.3-1.20.1.jar"
+hash-format = "sha512"
+hash = "d1b11e2c9fc1b61ee74fe4f8d8b0d015125478c5c49936e9ee229fcc195274e16fca69a111c65b90dbd5b4147fe9dac7f1096dede69eef88b2268f051da679da"
+
+[update]
+[update.modrinth]
+mod-id = "WuGVWUF2"
+version = "5Lmz97Q7"

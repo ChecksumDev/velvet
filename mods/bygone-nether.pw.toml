@@ -1,0 +1,13 @@
+name = "Bygone Nether"
+filename = "bygonenether-1.3.2-1.20.x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kt3BLgXB/versions/RA38ax2z/bygonenether-1.3.2-1.20.x.jar"
+hash-format = "sha512"
+hash = "9f8e9e091540f3f6eaec5987f131a89498632509aa3f92dd6f1b7e16ed9e725079bc703a5451868a6013ccabfa70f7a7ab100d5a58755dfa0bd78bbeb3dbdf53"
+
+[update]
+[update.modrinth]
+mod-id = "kt3BLgXB"
+version = "RA38ax2z"

@@ -1,0 +1,13 @@
+name = "Stalwart Dungeons"
+filename = "stalwart-dungeons-1.20.1-1.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BCLngNKp/versions/vgD645b7/stalwart-dungeons-1.20.1-1.2.8.jar"
+hash-format = "sha512"
+hash = "56bfe2c0cdc35dedf6aa1be9c0a4aa3c99708b8ec18f6dc66b81d6bf5c9b3beac5f5673ecbbb76f2ac1c97578d8e8cae360336a2af0b11c8f665affdcd94232c"
+
+[update]
+[update.modrinth]
+mod-id = "BCLngNKp"
+version = "vgD645b7"

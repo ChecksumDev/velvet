@@ -1,0 +1,13 @@
+name = "EvilCraft"
+filename = "EvilCraft-1.20.1-1.2.52.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3ANq2btA/versions/uFerSbDz/EvilCraft-1.20.1-1.2.52.jar"
+hash-format = "sha512"
+hash = "99e56405db3e89a4f440b3b2cb28e1196981e6ae5e3f096ab300cac627c97163867f5b93bcec5537287428c7c3a562456db5d8daec97616c8a557c607281496b"
+
+[update]
+[update.modrinth]
+mod-id = "3ANq2btA"
+version = "uFerSbDz"

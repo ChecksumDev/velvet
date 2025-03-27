@@ -1,0 +1,13 @@
+name = "Make Bubbles Pop"
+filename = "make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gPCdW0Wr/versions/B7ndPMxE/make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar"
+hash-format = "sha512"
+hash = "6ab26e1d12a167feb9f70aacbf8acf31cadd0c67a19403bc9e8e0a32c162431a84fade26b55c1fd56affe4b3546a216462903217a66a05256f55e8db661e58b6"
+
+[update]
+[update.modrinth]
+mod-id = "gPCdW0Wr"
+version = "B7ndPMxE"
