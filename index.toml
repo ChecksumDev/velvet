@@ -82,11 +82,6 @@ hash = "d1bfaa8ca8831f1c43a971ab29672df863c3afb530abf278ebad4a8b9faf0499"
 metafile = true
 
 [[files]]
-file = "mods/aeroblender.pw.toml"
-hash = "3003828b74335546dab094b9e20db143f9c01fe7a22dbcb934106a904819602f"
-metafile = true
-
-[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "dfab1141c0b00ca194d3826f3bbc06f6b50ed844ecad886bb69fb3d560090b0e"
 metafile = true
