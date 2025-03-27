@@ -1187,11 +1187,6 @@ hash = "7c5434ba889898e6f88bb323ff25d47bd2fc693ad0a259a920f644f23b1979d6"
 metafile = true
 
 [[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "4e3d9b34be042ffd29daf13b1f1f03f2076ce063fb7504f0da2c1a6756b5a6f3"
-metafile = true
-
-[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "ae066b36008d38ed6f5f6f4937eb5b3a12ea8c4c53917b92afa449c9c7850115"
 metafile = true
