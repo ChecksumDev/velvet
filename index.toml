@@ -307,11 +307,6 @@ hash = "f4406fece3f81c30faabfe3faffa872655c5eff78c1cb467e32853be805d3570"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "852ee3d5dea735c0c8f4c030edb06164863e7d27eef535c697f86a8b20a1cff0"
-metafile = true
-
-[[files]]
 file = "mods/content-creator-integration.pw.toml"
 hash = "96355f30eee2e75bcc1f9ad6909f45dac2cdbb7e26bea9bf3c2469dbc15f350c"
 metafile = true
