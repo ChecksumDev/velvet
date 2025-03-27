@@ -1,13 +1,13 @@
 name = "Corpse"
-filename = "corpse-forge-1.20.1-1.0.14.jar"
+filename = "corpse-forge-1.20.1-1.0.20.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/1VcxMk2Q/corpse-forge-1.20.1-1.0.14.jar"
+url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/COpemDNs/corpse-forge-1.20.1-1.0.20.jar"
 hash-format = "sha512"
-hash = "767052cdade875adbcdddc958479f92ed092a8ec7e361f4ec5370ccd350c43fd1d8921aaaf5ae79e67a51892f11d2ba72ae08ad1e8de7a0a46c26cdd69c2420f"
+hash = "c2bbc5dcaa456a711d03550d7ca60cef71c28915b756c86ab6fd6b7838661cede06c6f5f0955c2f79ba587a68e5aef8a8549554f8f11fdfa679132d831d2d6f8"
 
 [update]
 [update.modrinth]
 mod-id = "WrpuIfhw"
-version = "1VcxMk2Q"
+version = "COpemDNs"
