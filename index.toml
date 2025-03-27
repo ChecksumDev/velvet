@@ -87,11 +87,6 @@ hash = "3003828b74335546dab094b9e20db143f9c01fe7a22dbcb934106a904819602f"
 metafile = true
 
 [[files]]
-file = "mods/aether.pw.toml"
-hash = "1aaba088a650cc1499e1871cfa92f97e3d10a9d8c612fbd784b36c12382196de"
-metafile = true
-
-[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "dfab1141c0b00ca194d3826f3bbc06f6b50ed844ecad886bb69fb3d560090b0e"
 metafile = true
@@ -1154,11 +1149,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
-metafile = true
-
-[[files]]
-file = "mods/the-aether-redux.pw.toml"
-hash = "59f7a275a507dacff587d071d71896d6bb44fab67f2cd4483e9a2c2c63453447"
 metafile = true
 
 [[files]]
