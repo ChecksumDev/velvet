@@ -1,2 +1,0 @@
-execute if items entity @s contents minecraft:elytra[minecraft:custom_data~{armored_elytra:{armored:true}}] at @s run function armored_elytra:burn_elytra
-tag @s add armored_elytra.checked_for_elytra_on_fire

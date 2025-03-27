@@ -1,1 +1,0 @@
-schedule clear cauldron_concrete:check_for_items_in_filled_cauldrons

@@ -1,23 +1,26 @@
-name: Packwiz Update
+name: Update Mods
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Run daily at midnight UTC
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  packwiz:
+  update-mods:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
       - name: Setup Go
         uses: actions/setup-go@v5
+        with:
+          go-version: '1.18'
 
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
@@ -34,8 +37,17 @@ jobs:
           token: ${{ github.token }}
           commit-message: "fix: update all mods"
           title: "fix: update all mods"
-          body: "This pull request updates all mods to their latest versions."
-          branch: packwiz
+          body: |
+            # Automated Mod Updates
+            
+            This pull request updates all mods to their latest versions.
+            
+            ## Changes
+            - Updates all mods to their latest compatible versions
+            - Refreshes the packwiz index
+            
+            Please review the changes before merging.
+          branch: mod-updates
           base: main
-          labels: "packwiz"
+          labels: "mod-updates,automated"
           reviewers: "${{ github.event.pusher.name }}"

@@ -1,2 +1,0 @@
-schedule function cauldron_concrete:check_for_items_in_filled_cauldrons 1s
-execute as @e[type=minecraft:item] at @s if block ~ ~ ~ #minecraft:cauldrons unless block ~ ~ ~ minecraft:cauldron run function cauldron_concrete:check_item

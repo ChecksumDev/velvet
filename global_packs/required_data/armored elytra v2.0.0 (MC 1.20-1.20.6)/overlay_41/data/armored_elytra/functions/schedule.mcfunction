@@ -1,3 +1,0 @@
-schedule function armored_elytra:schedule 1s
-execute as @e[type=minecraft:item] if items entity @s contents minecraft:elytra[minecraft:damage~{durability:{min:2}},!minecraft:custom_data~{armored_elytra:{armored:true}}] at @s if block ~ ~-0.01 ~ #minecraft:anvil run function armored_elytra:check_for_chestplate
-execute as @e[type=minecraft:item] if items entity @s contents minecraft:elytra[minecraft:custom_data~{armored_elytra:{armored:true}}] at @s if block ~ ~-0.01 ~ minecraft:grindstone positioned ~ ~-0.01 ~ align xyz positioned ~0.5 ~0.5 ~0.5 run function armored_elytra:grind_elytra
