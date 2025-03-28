@@ -432,11 +432,6 @@ hash = "ae7e985d599a9b040c73ff1a008b7801930e2f4382d74cbbe90feb967db8c8ce"
 metafile = true
 
 [[files]]
-file = "mods/drippy-loading-screen.pw.toml"
-hash = "10c2ddc0f372c88bffe54f7720b2fd5b15e404e2ae303bfd02f23f4f15cfa81b"
-metafile = true
-
-[[files]]
 file = "mods/dripsounds.pw.toml"
 hash = "95c55820a7e5cd2923e558a856626c3da5696186bdc65b460fb44af501137642"
 metafile = true
