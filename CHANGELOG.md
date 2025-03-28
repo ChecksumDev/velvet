@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.0.0](https://github.com/ChecksumDev/velvet/compare/v1.1.1...v2.0.0) (2025-03-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `global_packs`
+
+### Features
+
+* add Almanac mod configuration and update pack hash ([80f4ef5](https://github.com/ChecksumDev/velvet/commit/80f4ef525e5bcab9fbaa31d354228e85b253a0d2))
+* add Lootr mod configuration and update pack hash ([415ce3b](https://github.com/ChecksumDev/velvet/commit/415ce3b8cca7bc50c43322ffb62ef3080ae598e3))
+* add new mods and update existing mod configurations ([d6ac5a2](https://github.com/ChecksumDev/velvet/commit/d6ac5a2a02db67ce5142743c43bf253ad9aaeb34))
+* update Curios API metadata and add Inventory Pets mod ([1b9f3d7](https://github.com/ChecksumDev/velvet/commit/1b9f3d7e597fe2b49355198867ec3884b3a4823f))
+
+
+### Bug Fixes
+
+* add glitchcore and update loader ([5c3374c](https://github.com/ChecksumDev/velvet/commit/5c3374c3031c829ff2849a7ac0cab2ccc587f83a))
+* remove `global_packs` ([75fa7c8](https://github.com/ChecksumDev/velvet/commit/75fa7c876c96402a78566d1ed815d58940a589eb))
+* remove AeroBlender mod and update pack hash ([346a7c3](https://github.com/ChecksumDev/velvet/commit/346a7c3e2526b78ca678e29c6d7dbed7714a2053))
+* remove connector.pw.toml ([1e41ffe](https://github.com/ChecksumDev/velvet/commit/1e41ffe3e90a27bbf47bb7cc0fdd19a328527f2d))
+* remove datapacks ([7a93b7e](https://github.com/ChecksumDev/velvet/commit/7a93b7e9b332dd61f640f8bfb515b884364918f7))
+* remove Drippy Loading Screen mod and update pack hash ([cc1a7e8](https://github.com/ChecksumDev/velvet/commit/cc1a7e8d149fd4e019065672a0415982be695ae9))
+* remove Embeddium mod and update pack hash ([e88b624](https://github.com/ChecksumDev/velvet/commit/e88b6248e0f5b904c1fe897a6836c1a65a52dfd1))
+* remove FancyMenu mod and update pack hash ([17bdda9](https://github.com/ChecksumDev/velvet/commit/17bdda9540582ad92e91ddddf8a2990808e4455c))
+* remove incompatible mods ([e1b46cf](https://github.com/ChecksumDev/velvet/commit/e1b46cf21f5bd76c618688a15d1f318acbe4c5f6))
+* remove ModernFix mod and update pack hash ([6d2200b](https://github.com/ChecksumDev/velvet/commit/6d2200b7b0e923bd33a4ba1d69daaffcc96ac262))
+* remove The Aether and The Aether: Redux mods from configuration ([ba6b53e](https://github.com/ChecksumDev/velvet/commit/ba6b53ef6180e8bed6ce48cb7c447114bc23c233))
+* remove Valkyrien Skies mod and update pack hash ([d05108e](https://github.com/ChecksumDev/velvet/commit/d05108ea8181c6419bb477d8e4b5f1f02c453be0))
+
 ## [1.1.1](https://github.com/ChecksumDev/velvet/compare/v1.1.0...v1.1.1) (2025-03-27)
 
 
