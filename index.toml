@@ -388,7 +388,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "1b4494467fc1fa728ddcfdea4d1774274800025efbf44b48e4178dc2828cbcb2"
+hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
 metafile = true
 
 [[files]]
@@ -679,6 +679,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "70e2bc72a0941d7873acdcda247cbe14cd38386ebe09dcaa1cb9516e9787a6eb"
+metafile = true
+
+[[files]]
+file = "mods/inventory-pets.pw.toml"
+hash = "37f77b805d9a82e8052e009884019f9277c40a9241166d994f68163fd5d40b85"
 metafile = true
 
 [[files]]
