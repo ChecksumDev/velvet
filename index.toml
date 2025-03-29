@@ -78,7 +78,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "d1bfaa8ca8831f1c43a971ab29672df863c3afb530abf278ebad4a8b9faf0499"
+hash = "a62ba64d6ffe14e5140cc357cb175b51f278d022fbab681a0580982e72378751"
 metafile = true
 
 [[files]]
@@ -638,7 +638,7 @@ metafile = true
 
 [[files]]
 file = "mods/hearths.pw.toml"
-hash = "ecf11e1b8addc7f1de4453bd12a7817df9abf5b9ceec1aa735f055dd510708f5"
+hash = "55f92a03df046f1ee4da2100025726e166576d47378932b685c56b9ff3da2a37"
 metafile = true
 
 [[files]]
@@ -1088,7 +1088,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b73a4541a27e80fdf94d7e91f584c78d1882b4963726fda96b1ae99677122318"
+hash = "2422c6246b106206e7242c0c905c7542bf324258fcce082102d229eb7cbfdea6"
 metafile = true
 
 [[files]]
@@ -1168,7 +1168,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "486d2a2a83579c2b3c74b0d8d4b23a6824c43e626b8f54142a169ef3c7715233"
+hash = "0c08142ab20b91366710d36df545f4195c3cfd19c85ccaf7282c039d65302025"
 metafile = true
 
 [[files]]
