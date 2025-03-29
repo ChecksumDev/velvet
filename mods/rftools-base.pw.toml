@@ -3,11 +3,11 @@ filename = "rftoolsbase-1.20-5.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hIO8IsD8/versions/fWmfU5lV/rftoolsbase-1.20-5.0.6.jar"
-hash-format = "sha512"
-hash = "46d80561106c04f45911ffbfd30cddb45c30542f239ec47cb78aeeb1647427d36756b4baffa96804680d4f954be0718a7d4b4af80289aec57e0356c467b0aac1"
+hash-format = "sha1"
+hash = "255c0ab024a5e94deffece648b8aa1237f88c05b"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "hIO8IsD8"
-version = "fWmfU5lV"
+[update.curseforge]
+file-id = 6195123
+project-id = 326041

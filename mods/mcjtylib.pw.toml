@@ -3,11 +3,11 @@ filename = "mcjtylib-1.20-8.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1Zu0uTEE/versions/IjGaFb6t/mcjtylib-1.20-8.0.6.jar"
-hash-format = "sha512"
-hash = "863c119b5e31c4905a800eb939fce1043dd2ebe8ee1350fe9d4080450d9c449e3b87b31d5fb20f2cca7629b8e5b0200b437b3e200c7f3ccb9b1fb436301b85d4"
+hash-format = "sha1"
+hash = "300afa123362f6f10c3791cc28d7086417379dad"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "1Zu0uTEE"
-version = "IjGaFb6t"
+[update.curseforge]
+file-id = 5613231
+project-id = 233105

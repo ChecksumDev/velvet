@@ -3,11 +3,11 @@ filename = "OctoLib-FORGE-0.5.0.1+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"
-hash-format = "sha512"
-hash = "e0bbe3a999f3a8c32b7dc0fd5bae61f62915dc5be40ac97a777f0784cdfaaed74b74f48cd407b9a8abb081ff331fbd272c9d4e08125f48f091435c926468d5c6"
+hash-format = "sha1"
+hash = "9eab28baff36942e1c924489e34753df10f40208"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "RH2KUdKJ"
-version = "HZ7KmyXp"
+[update.curseforge]
+file-id = 6274623
+project-id = 916747
