@@ -343,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "47bfb455847e99dd0555d3ced5ce3c48b927a93f06103bd8e6299454a03a490e"
+hash = "1e2f635d773d5761ede9b3372ed221f654f8ec8cdcd06ec7e23608505d880946"
 metafile = true
 
 [[files]]
@@ -458,7 +458,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclic.pw.toml"
-hash = "95bb44bc709edd7aeaf3bc3dc43649ac58f773d6105f599e150fda81d67bec18"
+hash = "ccf0590501f9cc53137359e3f613d0ebdf83f064b04f4fa84b5285308617e2e8"
 metafile = true
 
 [[files]]
@@ -528,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "603325cf98346d90a6b68d79d051ef6993874854117a41b65ba2f30c2a779eaa"
+hash = "239674d09056bdaedc594eeec4224cd4da7bf6bc4b5835d584112bfd2a797271"
 metafile = true
 
 [[files]]
@@ -648,7 +648,7 @@ metafile = true
 
 [[files]]
 file = "mods/flib.pw.toml"
-hash = "4a5b4a1d085ef0ad0d77e6c211e793f2d5cbe34e8ead3f5e7d2d089ceca207a0"
+hash = "3e8ccc74f161b632cf8eadda6548860bfa58e4970cec1630135b83900e31b98d"
 metafile = true
 
 [[files]]
@@ -773,7 +773,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "23dae17754dd0c22bde48f8cdde76b79fbf32db951d02eef98d16ec58e25cd4e"
+hash = "7828c173cb2652757af599df68d3449fc425412b1ff887436a7c7c0cb00a4c57"
 metafile = true
 
 [[files]]
@@ -963,12 +963,12 @@ metafile = true
 
 [[files]]
 file = "mods/mystical-agradditions.pw.toml"
-hash = "a44dd736854d19eb85d354512c697fcda843146fb731e53b851aee814a8af12d"
+hash = "998710dd6cfdd209c7835b1708b26bdd27e120f60401a472a747c3d4e324230a"
 metafile = true
 
 [[files]]
 file = "mods/mystical-agriculture.pw.toml"
-hash = "c013ab48ec99c38e64a80f2a882473c7306cd5251f28a6cfe8a499422b767bd4"
+hash = "bd236a40e8e29278d9e9dc22017b38fad051fa9c9f18fdfd94e1ab9e14ecf875"
 metafile = true
 
 [[files]]
@@ -1048,7 +1048,7 @@ metafile = true
 
 [[files]]
 file = "mods/pipez.pw.toml"
-hash = "e29353b55dd7ac3fc37b346e15cb601f8af76d698b3ba0914cd2a4347345a047"
+hash = "17c942a8654025bde22ffb51826ba59115c0928d0c9cbcd2470ae7b526b7d13b"
 metafile = true
 
 [[files]]
@@ -1063,7 +1063,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "6f13cf7ee6ed32570b37f8c08bcdbc07ac31ea959d58c9f4fd618bffe56b3c9e"
+hash = "b94d7377ee6b06fe9f5cdd9beb03ec45cc7975c2d9f64df6e945a0baedc4879b"
 metafile = true
 
 [[files]]
@@ -1113,7 +1113,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "ff89a9e8c6f80a1fcf53e218d5c8864e6080502f8943731e17cd66ffa5363f04"
+hash = "df0cc833f2c0c5548bd6752434e3cd3a944b7115b33d61c0bb2625a4c8b9b1af"
 metafile = true
 
 [[files]]
@@ -1213,7 +1213,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "5d608562aae7967c72f0711fb3836ce341aed463491d987fcf9e6a15fdeda841"
+hash = "8446832787bf2307f3fd5d98dd77ba119fe8b6801ba195ea2d3b6a904e8320bd"
 metafile = true
 
 [[files]]
@@ -1233,7 +1233,7 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees.pw.toml"
-hash = "058190a6f9fd5aca3859b4c274272412e1c66fcaaa5d3e4212357e1d246f0276"
+hash = "7cdf9cef74847fada3c5424665d97c8a05a7fa955bc35680416f37e3a6cd89ae"
 metafile = true
 
 [[files]]
@@ -1243,12 +1243,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1c7e43894ce92f3e7dac2e0790808e264bac9b3448963b712021f26ab877bc5f"
+hash = "8015cafe953cf2cc37c4ab33bd74a79e4c880634a23a3e80da0a846dd154c52e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "b95c533d4ef1c02eb0311047c0021dbbf30aea1f5bbb4f637753ceba608868f2"
+hash = "81f3fbdd0c4d5839a401cfda579e5adb56e642e2f51e670130b6452ac98a211e"
 metafile = true
 
 [[files]]
