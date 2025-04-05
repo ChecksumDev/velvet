@@ -413,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "943d73132fc62ec3abec3b4c84d3de849f927ecd67fd58eeebe235d95e1c3f54"
+hash = "1a0099366159fe4c62c19e82b512375eaa528574cf1a7d60fc7b2c96e8a83a51"
 metafile = true
 
 [[files]]
@@ -923,7 +923,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "456ad967ee762995622df5bb58aac50f69e7101dfd7001e29f5675c0289a5afe"
+hash = "f13e328561f1ee2eaf77fedcd5fcc253fb9b8b128facea35427e89bd5d95e357"
 metafile = true
 
 [[files]]
@@ -1193,7 +1193,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "bbed5792ab8d818d5cf5f25387427e6fd1999376d330f7cd0a6ff55554073adb"
+hash = "74605dbc168a001511741a85318364fc67d83f975528d279005304a182d87762"
 metafile = true
 
 [[files]]
@@ -1238,7 +1238,7 @@ metafile = true
 
 [[files]]
 file = "mods/solar-flux-reborn.pw.toml"
-hash = "695a46924c4042c1ee43e9638c463ca51290bc11cc54833383819f7c00c43ac6"
+hash = "35db96dc282bbd4c104f49784c64001f671d4357d3f9e2de9e9a9ced560665a9"
 metafile = true
 
 [[files]]
@@ -1248,7 +1248,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "81f3fbdd0c4d5839a401cfda579e5adb56e642e2f51e670130b6452ac98a211e"
+hash = "7c5e806df2496dcb2969b22715a71b8a41f66ab3c1772af3e5db40b18ec82fc4"
 metafile = true
 
 [[files]]
