@@ -397,11 +397,6 @@ hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
-file = "mods/create-structures.pw.toml"
-hash = "d88d1845469a6f316eede279741cdedfc7489b3bef6c66405fff999e70d6c189"
-metafile = true
-
-[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "1a0099366159fe4c62c19e82b512375eaa528574cf1a7d60fc7b2c96e8a83a51"
 metafile = true
