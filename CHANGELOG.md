@@ -1,5 +1,49 @@
 # Changelog
 
+## [2.0.0](https://github.com/ChecksumDev/velvet/compare/v1.1.1...v2.0.0) (2025-04-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `global_packs`
+
+### Features
+
+* add Almanac mod configuration and update pack hash ([80f4ef5](https://github.com/ChecksumDev/velvet/commit/80f4ef525e5bcab9fbaa31d354228e85b253a0d2))
+* add Cupboard mod configuration and update pack hash ([3b79e5a](https://github.com/ChecksumDev/velvet/commit/3b79e5a014ece00b4a5e829c6283d8a0fb049119))
+* add Gravestone mod configuration and update pack hash ([7ce552a](https://github.com/ChecksumDev/velvet/commit/7ce552a23fa1ed83bdc0a159733d006aab5c7a2d))
+* add Lootr mod configuration and update pack hash ([415ce3b](https://github.com/ChecksumDev/velvet/commit/415ce3b8cca7bc50c43322ffb62ef3080ae598e3))
+* add Mixin In Heaven mod configuration and update pack hash ([18719a1](https://github.com/ChecksumDev/velvet/commit/18719a17b1fac3d01bc78217d38d7bd4394a15f2))
+* add multiple mod configurations and update pack hash ([e5a9510](https://github.com/ChecksumDev/velvet/commit/e5a9510c9347dd1c08c8c5f8e5ff63830cbaee36))
+* add new mods and update existing mod configurations ([d6ac5a2](https://github.com/ChecksumDev/velvet/commit/d6ac5a2a02db67ce5142743c43bf253ad9aaeb34))
+* update Curios API metadata and add Inventory Pets mod ([1b9f3d7](https://github.com/ChecksumDev/velvet/commit/1b9f3d7e597fe2b49355198867ec3884b3a4823f))
+
+
+### Bug Fixes
+
+* add glitchcore and update loader ([5c3374c](https://github.com/ChecksumDev/velvet/commit/5c3374c3031c829ff2849a7ac0cab2ccc587f83a))
+* remove `global_packs` ([75fa7c8](https://github.com/ChecksumDev/velvet/commit/75fa7c876c96402a78566d1ed815d58940a589eb))
+* remove AeroBlender mod and update pack hash ([346a7c3](https://github.com/ChecksumDev/velvet/commit/346a7c3e2526b78ca678e29c6d7dbed7714a2053))
+* remove CC: Tweaked mod configuration and update pack hash ([8fc7f7d](https://github.com/ChecksumDev/velvet/commit/8fc7f7d48086ba0ca9b3fc6ddbbf60a21d746e9c))
+* remove connector.pw.toml ([1e41ffe](https://github.com/ChecksumDev/velvet/commit/1e41ffe3e90a27bbf47bb7cc0fdd19a328527f2d))
+* remove Corpse mod configuration and update pack hash ([cad272a](https://github.com/ChecksumDev/velvet/commit/cad272a03895773899e37a4719a354050f90d7af))
+* remove Create mod configuration and update pack hash ([2f7976e](https://github.com/ChecksumDev/velvet/commit/2f7976efa4f83cf50641c059572b8df398678996))
+* remove Create Structures mod configuration and update pack hash ([189cf0f](https://github.com/ChecksumDev/velvet/commit/189cf0f9570c23b516e014b7bd0213d59f4d37ff))
+* remove datapacks ([7a93b7e](https://github.com/ChecksumDev/velvet/commit/7a93b7e9b332dd61f640f8bfb515b884364918f7))
+* remove Drippy Loading Screen mod and update pack hash ([cc1a7e8](https://github.com/ChecksumDev/velvet/commit/cc1a7e8d149fd4e019065672a0415982be695ae9))
+* remove Embeddium mod and update pack hash ([e88b624](https://github.com/ChecksumDev/velvet/commit/e88b6248e0f5b904c1fe897a6836c1a65a52dfd1))
+* remove FancyMenu mod and update pack hash ([17bdda9](https://github.com/ChecksumDev/velvet/commit/17bdda9540582ad92e91ddddf8a2990808e4455c))
+* remove incompatible mods ([e1b46cf](https://github.com/ChecksumDev/velvet/commit/e1b46cf21f5bd76c618688a15d1f318acbe4c5f6))
+* remove Melody mod configuration and update pack hash ([c60af3b](https://github.com/ChecksumDev/velvet/commit/c60af3bbb4ba071795d8b6e655d0024e7557a984))
+* remove ModernFix mod and update pack hash ([6d2200b](https://github.com/ChecksumDev/velvet/commit/6d2200b7b0e923bd33a4ba1d69daaffcc96ac262))
+* remove Skin Layers 3D mod configuration and update pack hash ([5263c9d](https://github.com/ChecksumDev/velvet/commit/5263c9d799b8e13723cf9921555814d60acc1570))
+* remove The Aether and The Aether: Redux mods from configuration ([ba6b53e](https://github.com/ChecksumDev/velvet/commit/ba6b53ef6180e8bed6ce48cb7c447114bc23c233))
+* remove Valkyrien Skies mod and update pack hash ([d05108e](https://github.com/ChecksumDev/velvet/commit/d05108ea8181c6419bb477d8e4b5f1f02c453be0))
+* update all mods ([95a0379](https://github.com/ChecksumDev/velvet/commit/95a03793def5ccfd75675f699d9afd33998bd97f))
+* update all mods ([a3b5223](https://github.com/ChecksumDev/velvet/commit/a3b5223b5297c30409d715cd61a7aed03be6ff76))
+* update hash in pack.toml to match new configuration ([146e794](https://github.com/ChecksumDev/velvet/commit/146e7947ba52bb2a75f0133606f9a265c1efbafb))
+* update mod versions and hashes in configuration files ([c8a7b9a](https://github.com/ChecksumDev/velvet/commit/c8a7b9a40ccb51824ca94c5992245911d9ce587a))
+
 ## [1.1.1](https://github.com/ChecksumDev/velvet/compare/v1.1.0...v1.1.1) (2025-03-27)
 
 
