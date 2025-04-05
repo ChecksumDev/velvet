@@ -712,6 +712,11 @@ hash = "1216c309abd2dfb6b0b0d7b7671ddeafef0737f95006896286ac541307275f35"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "acf1aceab8c44817b0c376a99d2019614e0471d3d1a9cb2f40943fec03f05fbf"
+metafile = true
+
+[[files]]
 file = "mods/hammer-lib.pw.toml"
 hash = "53c477e3478ef271c14431e82f828a0818b53494943c7d518787f07b3d7e0a49"
 metafile = true
