@@ -892,6 +892,11 @@ hash = "9f3c9d8b2d5399bde5cb1b57c66821e70e28e539cd643f291771e774579ea353"
 metafile = true
 
 [[files]]
+file = "mods/mixin-in-heaven.pw.toml"
+hash = "66f8d30e72ccea2a28885f53122ed13af24515cb93b770e223551bfde3a8c841"
+metafile = true
+
+[[files]]
 file = "mods/mob-grinding-utils.pw.toml"
 hash = "22ffca942573f1c39cc6c495122a31706a12eeb655c013c6c017aa1306ccaf7b"
 metafile = true
