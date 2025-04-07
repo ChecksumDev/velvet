@@ -1058,7 +1058,7 @@ metafile = true
 
 [[files]]
 file = "mods/powah.pw.toml"
-hash = "a6c51068081c61647d8f4bfdbc6ef351d150622e921ebdca3efe4b45ecb6fd07"
+hash = "6b290630e999dc4ea4746039f38b8631f51434414e60784bb9e676f538136702"
 metafile = true
 
 [[files]]
@@ -1073,7 +1073,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "a764137af8157a15bce180d539c4a7e9e918aaff0e739dc8bb40aeb805769d5d"
+hash = "74991cede8019cf93d1243369d840913375ab3a7d448d764c7a15f87f5bc4e52"
 metafile = true
 
 [[files]]
@@ -1368,7 +1368,7 @@ metafile = true
 
 [[files]]
 file = "mods/world-host.pw.toml"
-hash = "92a5b786f7f3c30eb4bdeb0ea7ff6f458a0ef25556eb39452287076e0936eff6"
+hash = "9f036fd7c6a35da985a6bb653ec6f3bcb21a82fdafbfa355f3bb560139d21b71"
 metafile = true
 
 [[files]]
