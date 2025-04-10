@@ -1087,11 +1087,6 @@ hash = "d050a0ecbf46b373d1a99f0fcb9ff08da9390edd2958305352be88021a70b824"
 metafile = true
 
 [[files]]
-file = "mods/raised.pw.toml"
-hash = "4ac97596695bcac0e845fc38670d33974e4c902f5257afb9e764eed599e5f110"
-metafile = true
-
-[[files]]
 file = "mods/random-village-names.pw.toml"
 hash = "bd33f76ad3bbe85b586ee3980eb9099db7696b4aa236b61a80b5a3977805a65c"
 metafile = true
