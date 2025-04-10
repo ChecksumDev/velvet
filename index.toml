@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "6be228c7dd730df1027a37c7de436d458244b7421ad5e6a9c5fd180bd774d45f"
+hash = "756d6b5634836817d1d232099e89c9a94a1459cad2452282b4cf7d56fad32a82"
 metafile = true
 
 [[files]]
@@ -158,7 +158,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "2caa5537ac0b8f74eb4b3455048a1ffa85845328143fde292da8cb9c224730f3"
+hash = "a41a3cf3204c48e0a0b48acbad66ff4dbd71a94942cb4955973a7059b686aa05"
 metafile = true
 
 [[files]]
@@ -358,7 +358,7 @@ metafile = true
 
 [[files]]
 file = "mods/connected-glass.pw.toml"
-hash = "0cd1cb879ed803a08bf08ec01882f3c63ae4e267c51af102dbe4c5bff32a268d"
+hash = "f7d6e93ebda94f4e833741ca04527ee8758852ba44ba4a36de071936a2533bff"
 metafile = true
 
 [[files]]
@@ -438,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "42a7ffa2efa0ccf9260b887714b5da8e17cc7a9a59d02aaa8061bd5bf0ab0612"
+hash = "a431f569678d9dc9af3a983bc8e65eca0a24c9b67fefd5ac9ef22640ec05cda1"
 metafile = true
 
 [[files]]
@@ -678,7 +678,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "8c7cdab3c1cfed2f2ee6c48ab0b5450b7672f0f4256e20b08ce16e71c2c8773b"
+hash = "15745e30624117ff0b08be8cb13c214e18460d707929c934b520844ddacb6ec7"
 metafile = true
 
 [[files]]
@@ -1188,7 +1188,7 @@ metafile = true
 
 [[files]]
 file = "mods/serene-seasons.pw.toml"
-hash = "eab19cc3123cd239d9fdb7e8902678a21471925046b2ce939b42d51d69b8b920"
+hash = "7f38bb5c863c04b013a2c6ed75d799525ba3cc5a548279adde6e9329ff308dd4"
 metafile = true
 
 [[files]]
@@ -1233,17 +1233,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "8015cafe953cf2cc37c4ab33bd74a79e4c880634a23a3e80da0a846dd154c52e"
+hash = "0639aacc010f35f08b817673786a410c1b9bd8599bc038dc523ac541ec6f9ae3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7c5e806df2496dcb2969b22715a71b8a41f66ab3c1772af3e5db40b18ec82fc4"
+hash = "73060277eda534ebb4caa6e150a6426be2dae5e5b0eac7103914ab0f8f50f87c"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "f0c1626fea100dbbbb2c475eef4e237fbc06594e480638ddf47c6f77cea2a0f2"
+hash = "14d1ae4c46e7d5399a40918a313a5b7db74127630f2e41d8d23791b83930096c"
 metafile = true
 
 [[files]]
