@@ -1097,11 +1097,6 @@ hash = "bd33f76ad3bbe85b586ee3980eb9099db7696b4aa236b61a80b5a3977805a65c"
 metafile = true
 
 [[files]]
-file = "mods/realistic-torches.pw.toml"
-hash = "0f190b57197fa20489ec02641b9a594c574e9edb3960e54adb433e97b1b089d0"
-metafile = true
-
-[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "df0cc833f2c0c5548bd6752434e3cd3a944b7115b33d61c0bb2625a4c8b9b1af"
 metafile = true
