@@ -357,6 +357,11 @@ hash = "84ed1e8a24873d2cc3fcf88e503d9945d10be63b2414503c884e394b62083f56"
 metafile = true
 
 [[files]]
+file = "mods/compressium.pw.toml"
+hash = "925a429084a97ac7df571f00fb29e1480cea3d989b2a7949631af7f53da7a1d8"
+metafile = true
+
+[[files]]
 file = "mods/connected-glass.pw.toml"
 hash = "f7d6e93ebda94f4e833741ca04527ee8758852ba44ba4a36de071936a2533bff"
 metafile = true
