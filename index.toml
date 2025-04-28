@@ -1347,11 +1347,6 @@ hash = "15af8d1b761076f112ac3a81edb2b2d5647688d7e30ea2460fe7841d43323b27"
 metafile = true
 
 [[files]]
-file = "mods/twitch-chat-in-game-chat.pw.toml"
-hash = "5cf8d93ae36e884ab41c4414b936e29c2c64aac7bab557a64eba91d83fa5dd8b"
-metafile = true
-
-[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "ae066b36008d38ed6f5f6f4937eb5b3a12ea8c4c53917b92afa449c9c7850115"
 metafile = true
