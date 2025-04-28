@@ -1,0 +1,13 @@
+name = "Twitch Chat in Game Chat"
+filename = "twitchintegration-1.20.1-1.0.5-pkg.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c30991d3e929984e6dfb35b21124cd66102834f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5671610
+project-id = 888910
