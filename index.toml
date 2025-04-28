@@ -1287,11 +1287,6 @@ hash = "d1f859de9867b7433305aef1631aa22a436a4c3924474a21c0a22ab5f2093c04"
 metafile = true
 
 [[files]]
-file = "mods/thermal-foundation.pw.toml"
-hash = "626f0ea226f55c453930ef387b32ad090c8defdd07792fe0aefc4b5afa87cb46"
-metafile = true
-
-[[files]]
 file = "mods/tinkers-construct.pw.toml"
 hash = "ef691f94bafcddb82e719f73ba834aeca547ef895307bc7482188d04c5fcfe93"
 metafile = true
