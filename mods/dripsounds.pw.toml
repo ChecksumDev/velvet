@@ -1,13 +1,13 @@
 name = "Drip Sounds"
-filename = "Drip Sounds-0.4.0+1.20.4-Forge.jar"
+filename = "Drip Sounds-0.5.1+1.20.4-Forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/T8MMXTpr/versions/MbDSI6QI/Drip%20Sounds-0.4.0%2B1.20.4-Forge.jar"
+url = "https://cdn.modrinth.com/data/T8MMXTpr/versions/eOBbLhlz/Drip%20Sounds-0.5.1%2B1.20.4-Forge.jar"
 hash-format = "sha512"
-hash = "e7a8622879e1f40b7599856195532f7df085ef89c0b0a08876786a2ece186ef9ec10bd531cb7c4300a154c40685ef019966b2fe23cb79ee282f5460978ee7a4d"
+hash = "814da8f44edf9952c10d4fb6e10ed991960cb5b2da73d56ca59913c199cc92b6f43789b935b50e3c878759e58ae0ad0dc7054439507ba5beb217fbfcc4870bba"
 
 [update]
 [update.modrinth]
 mod-id = "T8MMXTpr"
-version = "MbDSI6QI"
+version = "eOBbLhlz"
