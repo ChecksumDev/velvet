@@ -1,13 +1,13 @@
 name = "Easy Villagers"
-filename = "easy-villagers-forge-1.20.1-1.1.24.jar"
+filename = "easy-villagers-forge-1.20.1-1.1.33.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Kaov2qgi/versions/qzgjZBbD/easy-villagers-forge-1.20.1-1.1.24.jar"
+url = "https://cdn.modrinth.com/data/Kaov2qgi/versions/37CmTasi/easy-villagers-forge-1.20.1-1.1.33.jar"
 hash-format = "sha512"
-hash = "badd05abe4a4ac42538f711171479a4526a016bbf5980722e70545817ceea8ff0b848467aee52bb714839894d34fdb0b0bda50b1c1e4df796d36a8d1b527f924"
+hash = "3fadf72b0beb06119973732599f4002f55106d28a3630d3cb9a312e7338e01747dec2edf3af3baac6fc716dedb0e3d7fbc1d9a8350ef212b092c81a16e1847d2"
 
 [update]
 [update.modrinth]
 mod-id = "Kaov2qgi"
-version = "qzgjZBbD"
+version = "37CmTasi"
