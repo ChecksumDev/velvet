@@ -487,6 +487,11 @@ hash = "2fcea0bdf1c046a408cf5b2fb163a0cfbb826ba221a0fa1bec74e4df25b040ff"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "9c553500c771ace491481e52fb2a144e97ce332f03bc36155b62bcf5e64877ed"
+metafile = true
+
+[[files]]
 file = "mods/domestication-innovation.pw.toml"
 hash = "815edded2c6be145f2a82e48a4044955e4969a220d29d4290f395d38a6ff15e8"
 metafile = true
@@ -714,6 +719,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "f532de266ab649ff46f440d6f315eeef677a9176c9fb0a70529c44e38a965e9b"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "1635aa0e0df9d27f22de030955c8690061970abe26e3e913c4d950227aba4916"
 metafile = true
 
 [[files]]
