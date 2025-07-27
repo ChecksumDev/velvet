@@ -912,11 +912,6 @@ hash = "6d52b6989ddabb53a1f86aee4ab315c2c8726b800276975eb510a31884891082"
 metafile = true
 
 [[files]]
-file = "mods/mindful-darkness.pw.toml"
-hash = "9f3c9d8b2d5399bde5cb1b57c66821e70e28e539cd643f291771e774579ea353"
-metafile = true
-
-[[files]]
 file = "mods/mixin-in-heaven.pw.toml"
 hash = "66f8d30e72ccea2a28885f53122ed13af24515cb93b770e223551bfde3a8c841"
 metafile = true
@@ -1014,11 +1009,6 @@ metafile = true
 [[files]]
 file = "mods/notrample.pw.toml"
 hash = "f08e47a8b608a67794114836dcefe16e07c853ca4271c2fa8def9bd84b58020e"
-metafile = true
-
-[[files]]
-file = "mods/nyctophobia.pw.toml"
-hash = "f65f1ef6d66ab0961d80ac101507e0da78d1d6399fd73ee1f23df560736f18cd"
 metafile = true
 
 [[files]]
@@ -1344,11 +1334,6 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "7d82589ef537c4a134ec1c5901019052c3fd3fd1a6051500ff3f732339e801e0"
-metafile = true
-
-[[files]]
-file = "mods/true-darkness-forge-updated-fork.pw.toml"
-hash = "7c5434ba889898e6f88bb323ff25d47bd2fc693ad0a259a920f644f23b1979d6"
 metafile = true
 
 [[files]]
