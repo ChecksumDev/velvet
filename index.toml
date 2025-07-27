@@ -1287,11 +1287,6 @@ hash = "d7849f105a95077b8def2721e50871e55ea74f75d7444c1908c9603ae272b022"
 metafile = true
 
 [[files]]
-file = "mods/stevesrealisticsleep.pw.toml"
-hash = "33cfc03205cec2d8551e2a5aedd0703854b80423c7a28353c4de2fa544764883"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
 metafile = true
