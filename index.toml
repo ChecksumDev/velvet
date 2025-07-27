@@ -87,11 +87,6 @@ hash = "dfab1141c0b00ca194d3826f3bbc06f6b50ed844ecad886bb69fb3d560090b0e"
 metafile = true
 
 [[files]]
-file = "mods/alexs-caves.pw.toml"
-hash = "6f864eef65f9a38f57eb0cc6fc71469b36ea70444a10c3e27502d617c5eaf917"
-metafile = true
-
-[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
@@ -1344,11 +1339,6 @@ metafile = true
 [[files]]
 file = "mods/tumbleweed.pw.toml"
 hash = "15af8d1b761076f112ac3a81edb2b2d5647688d7e30ea2460fe7841d43323b27"
-metafile = true
-
-[[files]]
-file = "mods/vivecraft.pw.toml"
-hash = "ae066b36008d38ed6f5f6f4937eb5b3a12ea8c4c53917b92afa449c9c7850115"
 metafile = true
 
 [[files]]
