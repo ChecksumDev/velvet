@@ -1,13 +1,13 @@
 name = "Powah!"
-filename = "Powah-5.0.10.jar"
+filename = "Powah-5.0.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/KZO4S4DO/versions/vjK6oB6P/Powah-5.0.10.jar"
+url = "https://cdn.modrinth.com/data/KZO4S4DO/versions/xDOvxyqP/Powah-5.0.11.jar"
 hash-format = "sha512"
-hash = "6ad508e294f4293be8b9c76b7f011f34867a68adae28afd5a4800661913ae63251581399ca47bfb9a6354c8f3894f84cba78bf89ead75bcf5b44ffea9252e1f6"
+hash = "c9cf605e5598cfeda4392fe546f5cd541be8ac6fc02525cc23b0780aff7b8c40bb6a6fa572c70aea94428e7f69ff7cf64a1abded03e311c20c150d2f6c30fe6f"
 
 [update]
 [update.modrinth]
 mod-id = "KZO4S4DO"
-version = "vjK6oB6P"
+version = "xDOvxyqP"
