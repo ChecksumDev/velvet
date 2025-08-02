@@ -714,11 +714,6 @@ hash = "691798dd9acfd386bc9332249cd4c1291c646af4d97999090ec0528d9bb35c88"
 metafile = true
 
 [[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-hash = "6a0155012732893dae42d8a7dae4df181367eaaea57296e0ca9849567e7b9b4f"
-metafile = true
-
-[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "0b811f8de64a172a9de2d151ce53579b666e15744b7744c64ddc894a8624c5e2"
 metafile = true
@@ -831,11 +826,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
-metafile = true
-
-[[files]]
-file = "mods/journeymap-teams.pw.toml"
-hash = "c333e315e4a6581c8efe4aad46bee5e12ad7a4e945886d079ef36482301b7285"
 metafile = true
 
 [[files]]
@@ -1066,6 +1056,11 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "74735952df4c37dbc3e36df80035a0a4ec4a4d56a5a622e7fa94626732fd789b"
 metafile = true
 
 [[files]]
