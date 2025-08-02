@@ -1,0 +1,194 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 763,
+  "generalSettings": {
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": false,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1027692287037292544",
+    "defaultIcon": "grass",
+    "enableJoinRequests": true,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "Browsing the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading into the world..."
+    },
+    "lanData": {
+      "textOverride": "Hosting a LAN world"
+    },
+    "singleplayerData": {
+      "textOverride": "Exploring solo"
+    },
+    "realmData": {
+      "textOverride": "Connected to {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://vzge.me/bust/256/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "altGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "renderTooltips": true,
+    "configKeyCode": 96
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getFirst(player_info_health, player_info_coordinate, world_info, 'Velvet Edition')}",
+      "largeImageKey": "embedded_cover",
+      "largeImageText": "Velvet Edition",
+      "smallImageKey": "player_bust",
+      "smallImageText": "Playing as {player.name}",
+      "startTimestamp": "{data.general.timestamp}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Download Velvet",
+          "url": "https://github.com/ChecksumDev/velvet"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "default": "embedded_cover",
+      "player_bust": "https://vzge.me/bust/256/{getOrDefault(player.uuid.short, player.name)}"
+    },
+    "dynamicVariables": {
+      "default": "Velvet Edition",
+      "mods": "{general.mods} mods loaded",
+      "player_info_coordinate": "At {player.position.x}, {player.position.y}, {player.position.z}",
+      "players": "{server.players.current}/{server.players.max} players online",
+      "player_info_in": "({player_info_health})",
+      "player_info_items": "Holding: {item.main_hand.message}",
+      "player_info_out": "Playing as {player.name}",
+      "player_info_health": "❤ {player.health.current}/{player.health.max}",
+      "world_info": "World: {world.name}",
+      "pack": "Velvet Edition"
+    }
+  }
+}

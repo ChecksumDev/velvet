@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/craftpresence.json"
+hash = "71c4e3f7e6b8b5bd1669b289d35333cb066f9bb194b5fc6d0a81f4473c97099c"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "203df754e96bf88a3a41fdbd9a8d789fc2076243ebbcd3064d60ff488275a95c"
 
@@ -410,6 +414,11 @@ hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
+file = "mods/craftpresence.pw.toml"
+hash = "17a10532b2a12768f31f8bd209024312e6e224d01f87c8476704000b40d2334e"
+metafile = true
+
+[[files]]
 file = "mods/creativecore.pw.toml"
 hash = "1a0099366159fe4c62c19e82b512375eaa528574cf1a7d60fc7b2c96e8a83a51"
 metafile = true
@@ -705,6 +714,11 @@ hash = "691798dd9acfd386bc9332249cd4c1291c646af4d97999090ec0528d9bb35c88"
 metafile = true
 
 [[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "6a0155012732893dae42d8a7dae4df181367eaaea57296e0ca9849567e7b9b4f"
+metafile = true
+
+[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "0b811f8de64a172a9de2d151ce53579b666e15744b7744c64ddc894a8624c5e2"
 metafile = true
@@ -817,6 +831,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-teams.pw.toml"
+hash = "c333e315e4a6581c8efe4aad46bee5e12ad7a4e945886d079ef36482301b7285"
 metafile = true
 
 [[files]]
