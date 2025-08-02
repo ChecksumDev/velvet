@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/craftpresence.json"
-hash = "71c4e3f7e6b8b5bd1669b289d35333cb066f9bb194b5fc6d0a81f4473c97099c"
+hash = "0d6402bbc8f9dc423fac110c644309d08834732e4554cf6f2d97d4a12cc412c2"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
