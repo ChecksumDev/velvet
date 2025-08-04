@@ -205,7 +205,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "608cacb9ddb44f9360d418afd765944f41d75a7a2a6e5d36967fc6cfc2638476"
+hash = "03d143a3507e525e5553cab391fd8c4d27b445164dc299501dd1f2678fbfb23f"
 metafile = true
 
 [[files]]
@@ -965,7 +965,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "f6f08c077f34a22c13c586ac8a1ed3378aba3f766631df3b6347210e4605cd7f"
+hash = "5326ae4c6881fca33b2c006713c5bf579048b6f10cb730b9aeae89ac45b80a74"
 metafile = true
 
 [[files]]
@@ -1010,7 +1010,7 @@ metafile = true
 
 [[files]]
 file = "mods/mystical-agriculture.pw.toml"
-hash = "f70cedcd4a5152a2094a77a165f68f839063ad38a299f113347cf65da21b6d2c"
+hash = "fa38a7153a0b556df17058415dff4f896e8da2e3914aa832def680b9897d9e90"
 metafile = true
 
 [[files]]
@@ -1240,7 +1240,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e1e64f2dfbdc2e417a925ec47868a0e1d37abae69b03140e6281af7b5f81a97e"
+hash = "cb07c379c25296d11d3805801ab2963f2196b5f3f38c3e46453db2e59193248c"
 metafile = true
 
 [[files]]
