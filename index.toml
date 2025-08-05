@@ -1379,6 +1379,11 @@ hash = "15af8d1b761076f112ac3a81edb2b2d5647688d7e30ea2460fe7841d43323b27"
 metafile = true
 
 [[files]]
+file = "mods/vanishmod.pw.toml"
+hash = "6cdd0327a10ccd5c02143d602da29d6c94313640d3bcc5f2946054bb8f1cf21b"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "3ff71ad179539f0ddaab84fb764c585dc581ce1396ca387a1efad18ef2081c42"
 metafile = true
