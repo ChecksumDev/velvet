@@ -120,7 +120,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "51b9a1eab155dd8b698f174935a4350df6be0c5168b08a613336f258a032b220"
+hash = "bf4133b4ac7b08983c98dcfb4cbfe4cc2b10698efb935d19378fd6a27490dd22"
 metafile = true
 
 [[files]]
@@ -230,7 +230,7 @@ metafile = true
 
 [[files]]
 file = "mods/azurelib.pw.toml"
-hash = "a14ca9db0af0b0c939e0969566c30355eff81d7395b54259e02eb135553a784f"
+hash = "ac417e7e82f5e6fa46de32fdefc6d01b786c39bf26cb4d7e0869ae9a6992f03e"
 metafile = true
 
 [[files]]
@@ -305,7 +305,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-gadgets.pw.toml"
-hash = "8461b7344559646b5051a6d812e2cd4d43e62c8c817d17f0b2552f65306f43d4"
+hash = "528a5c2d50126e1b2906b47449b40a996fce3b4a50b9a0460533f2b7b74f5c99"
 metafile = true
 
 [[files]]
@@ -650,7 +650,7 @@ metafile = true
 
 [[files]]
 file = "mods/evilcraft.pw.toml"
-hash = "5e8d9647237f123ddb95a851ab693b24b260590502a3af54a837f64f7b967ec1"
+hash = "f889f3f85c19a0f1e748ca97de3c83444e6d98a6c19cf59d02862b20556ae170"
 metafile = true
 
 [[files]]
@@ -870,7 +870,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "66a8d44f5ef66075063ced8b54312a46bb8a256090d36df877b8ff58de9d16be"
+hash = "0fbcc8cf03336e6bed425e2115fc4ff1a3a05be5c655228b305e70380eb08b57"
 metafile = true
 
 [[files]]
@@ -905,7 +905,7 @@ metafile = true
 
 [[files]]
 file = "mods/large-ore-deposits.pw.toml"
-hash = "7ce7b5a8f8e3e225de4b1a592aa7b283948f1e8aaedbacc0908329348d45b0a9"
+hash = "b2ace73b7182c2679d8e3bcb8728605c010949e98982d53e0e4d26a803504dfd"
 metafile = true
 
 [[files]]
@@ -1010,7 +1010,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "5326ae4c6881fca33b2c006713c5bf579048b6f10cb730b9aeae89ac45b80a74"
+hash = "f71945a7eb0a75ed920225f624978790c2ec75c08c24661e06d5b486722d5b1a"
 metafile = true
 
 [[files]]
@@ -1110,7 +1110,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "74735952df4c37dbc3e36df80035a0a4ec4a4d56a5a622e7fa94626732fd789b"
+hash = "8bbe4baebc1eae2bc5676d521055abb17933256c922e6c750a6d042d7c2c392c"
 metafile = true
 
 [[files]]
@@ -1290,7 +1290,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "cb07c379c25296d11d3805801ab2963f2196b5f3f38c3e46453db2e59193248c"
+hash = "4a5d3ec8e5ff7bfb67e3a8dd95e421504fd0daa271979648a785fba7c073c674"
 metafile = true
 
 [[files]]
@@ -1310,7 +1310,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "736708015c1163343eb381c0f61b030d25ec940033e8d1e62a9c83f259f65d9b"
+hash = "30ae3e1cc1c6e3f09b29fc3a61fa8b8683ec7d5d31f4b234a27d58a99accbb20"
 metafile = true
 
 [[files]]
@@ -1345,12 +1345,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "44307037183b08d9bffc68198280912245f8b93cf7504678eccd2ac11ca6fc0b"
+hash = "4b3aba40a5a51c692d4973725823664c4c4f5e666a4563e3fda9064f5ed52ab9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "019d257c815a08a5f1f61aff02ebd0ad6f3657d330dcb30cf288c297d38b10ae"
+hash = "8478aa3272e0e2e008d570468693a3a2d29130e6751cb8e44915abb8f34e456f"
 metafile = true
 
 [[files]]
@@ -1435,12 +1435,12 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "3ff71ad179539f0ddaab84fb764c585dc581ce1396ca387a1efad18ef2081c42"
+hash = "cbf8b60bfd2114d76247f0a8d9f31e3e760069f86d3280aa99bd26881787f045"
 metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "f3eade7a6f574ae82f533184a65885f3e2e70e2dff73afa5f137046ca3165ae9"
+hash = "073176bf34feab44656497b2e5ddf80eae8cf12f743f332d56ac0544bd91d8e2"
 metafile = true
 
 [[files]]
